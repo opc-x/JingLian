@@ -6,3 +6,9 @@ __pycache__/
 *.pyc
 .venv/
 node_modules/
+jingyu/node_modules/
+jingyu/dist/
+jingyu/public/
+viewer/.vite/
+.tmp-*
+.venv/

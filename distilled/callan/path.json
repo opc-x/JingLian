@@ -1,0 +1,1802 @@
+{
+  "title": "Callan Method 学习路径",
+  "updatedAt": "2026-06-08",
+  "totalLessons": 189,
+  "cefrLevels": [
+    {
+      "cefr": "A1",
+      "label": "入门级",
+      "books": [
+        1,
+        2
+      ],
+      "lessonRange": {
+        "from": 1,
+        "to": 24
+      },
+      "skills": [
+        "基础问答",
+        "教室/物品词汇",
+        "be 动词",
+        "简单位置介词"
+      ],
+      "canDo": [
+        "用简单句介绍物品与身份",
+        "回答 What's this / Where is 类问题"
+      ]
+    },
+    {
+      "cefr": "A2",
+      "label": "初级",
+      "books": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "lessonRange": {
+        "from": 25,
+        "to": 94
+      },
+      "skills": [
+        "过去时入门",
+        "比较级",
+        "更多时态",
+        "日常场景扩展"
+      ],
+      "canDo": [
+        "描述日常动作与位置",
+        "使用常见过去时表达"
+      ]
+    },
+    {
+      "cefr": "B1",
+      "label": "中级",
+      "books": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "lessonRange": {
+        "from": 95,
+        "to": 160
+      },
+      "skills": [
+        "复杂句式",
+        "条件句",
+        "被动语态入门",
+        "抽象话题"
+      ],
+      "canDo": [
+        "连贯描述经历与观点",
+        "处理多数日常与工作场景"
+      ]
+    },
+    {
+      "cefr": "B2",
+      "label": "中高级",
+      "books": [
+        11,
+        12
+      ],
+      "lessonRange": {
+        "from": 164,
+        "to": 188
+      },
+      "skills": [
+        "高级语法",
+        "习语表达",
+        "快速反应",
+        "近母语速度"
+      ],
+      "canDo": [
+        "流利快问快答",
+        "处理复杂语法与词汇替换"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "book": 1,
+      "lessonId": 1,
+      "title": "Lesson 1",
+      "cefr": "A1",
+      "blocks": 14,
+      "vocabulary": 52,
+      "drills": 26
+    },
+    {
+      "book": 1,
+      "lessonId": 2,
+      "title": "Lesson 2",
+      "cefr": "A1",
+      "blocks": 12,
+      "vocabulary": 28,
+      "drills": 18
+    },
+    {
+      "book": 1,
+      "lessonId": 3,
+      "title": "Lesson 3",
+      "cefr": "A1",
+      "blocks": 19,
+      "vocabulary": 46,
+      "drills": 35
+    },
+    {
+      "book": 1,
+      "lessonId": 4,
+      "title": "Lesson 4",
+      "cefr": "A1",
+      "blocks": 16,
+      "vocabulary": 31,
+      "drills": 24
+    },
+    {
+      "book": 1,
+      "lessonId": 5,
+      "title": "Lesson 5",
+      "cefr": "A1",
+      "blocks": 11,
+      "vocabulary": 30,
+      "drills": 15
+    },
+    {
+      "book": 1,
+      "lessonId": 6,
+      "title": "Lesson 6",
+      "cefr": "A1",
+      "blocks": 18,
+      "vocabulary": 46,
+      "drills": 26
+    },
+    {
+      "book": 1,
+      "lessonId": 7,
+      "title": "Lesson 7",
+      "cefr": "A1",
+      "blocks": 18,
+      "vocabulary": 37,
+      "drills": 20
+    },
+    {
+      "book": 1,
+      "lessonId": 8,
+      "title": "Lesson 8",
+      "cefr": "A1",
+      "blocks": 16,
+      "vocabulary": 35,
+      "drills": 22
+    },
+    {
+      "book": 1,
+      "lessonId": 9,
+      "title": "Lesson 9",
+      "cefr": "A1",
+      "blocks": 46,
+      "vocabulary": 42,
+      "drills": 28
+    },
+    {
+      "book": 2,
+      "lessonId": 10,
+      "title": "Lesson 10",
+      "cefr": "A1",
+      "blocks": 19,
+      "vocabulary": 74,
+      "drills": 18
+    },
+    {
+      "book": 2,
+      "lessonId": 11,
+      "title": "Lesson 11",
+      "cefr": "A1",
+      "blocks": 16,
+      "vocabulary": 25,
+      "drills": 23
+    },
+    {
+      "book": 2,
+      "lessonId": 12,
+      "title": "Lesson 12",
+      "cefr": "A1",
+      "blocks": 14,
+      "vocabulary": 33,
+      "drills": 10
+    },
+    {
+      "book": 2,
+      "lessonId": 13,
+      "title": "Lesson 13",
+      "cefr": "A1",
+      "blocks": 26,
+      "vocabulary": 37,
+      "drills": 19
+    },
+    {
+      "book": 2,
+      "lessonId": 14,
+      "title": "Lesson 14",
+      "cefr": "A1",
+      "blocks": 17,
+      "vocabulary": 32,
+      "drills": 20
+    },
+    {
+      "book": 2,
+      "lessonId": 15,
+      "title": "Lesson 15",
+      "cefr": "A1",
+      "blocks": 13,
+      "vocabulary": 26,
+      "drills": 13
+    },
+    {
+      "book": 2,
+      "lessonId": 16,
+      "title": "Lesson 16",
+      "cefr": "A1",
+      "blocks": 17,
+      "vocabulary": 34,
+      "drills": 12
+    },
+    {
+      "book": 2,
+      "lessonId": 17,
+      "title": "Lesson 17",
+      "cefr": "A1",
+      "blocks": 10,
+      "vocabulary": 25,
+      "drills": 17
+    },
+    {
+      "book": 2,
+      "lessonId": 18,
+      "title": "Lesson 18",
+      "cefr": "A1",
+      "blocks": 15,
+      "vocabulary": 27,
+      "drills": 17
+    },
+    {
+      "book": 2,
+      "lessonId": 19,
+      "title": "Lesson 19",
+      "cefr": "A1",
+      "blocks": 9,
+      "vocabulary": 13,
+      "drills": 18
+    },
+    {
+      "book": 2,
+      "lessonId": 20,
+      "title": "Lesson 20",
+      "cefr": "A1",
+      "blocks": 17,
+      "vocabulary": 43,
+      "drills": 32
+    },
+    {
+      "book": 2,
+      "lessonId": 21,
+      "title": "Lesson 21",
+      "cefr": "A1",
+      "blocks": 13,
+      "vocabulary": 42,
+      "drills": 28
+    },
+    {
+      "book": 2,
+      "lessonId": 22,
+      "title": "Lesson 22",
+      "cefr": "A1",
+      "blocks": 18,
+      "vocabulary": 30,
+      "drills": 26
+    },
+    {
+      "book": 2,
+      "lessonId": 23,
+      "title": "Lesson 23",
+      "cefr": "A1",
+      "blocks": 11,
+      "vocabulary": 41,
+      "drills": 23
+    },
+    {
+      "book": 2,
+      "lessonId": 24,
+      "title": "Lesson 24",
+      "cefr": "A1",
+      "blocks": 87,
+      "vocabulary": 78,
+      "drills": 33
+    },
+    {
+      "book": 3,
+      "lessonId": 25,
+      "title": "Lesson 25",
+      "cefr": "A2",
+      "blocks": 10,
+      "vocabulary": 33,
+      "drills": 16
+    },
+    {
+      "book": 3,
+      "lessonId": 26,
+      "title": "Lesson 26",
+      "cefr": "A2",
+      "blocks": 6,
+      "vocabulary": 21,
+      "drills": 14
+    },
+    {
+      "book": 3,
+      "lessonId": 27,
+      "title": "Lesson 27",
+      "cefr": "A2",
+      "blocks": 26,
+      "vocabulary": 52,
+      "drills": 15
+    },
+    {
+      "book": 3,
+      "lessonId": 28,
+      "title": "Lesson 28",
+      "cefr": "A2",
+      "blocks": 15,
+      "vocabulary": 39,
+      "drills": 26
+    },
+    {
+      "book": 3,
+      "lessonId": 29,
+      "title": "Lesson 29",
+      "cefr": "A2",
+      "blocks": 16,
+      "vocabulary": 35,
+      "drills": 14
+    },
+    {
+      "book": 3,
+      "lessonId": 30,
+      "title": "Lesson 30",
+      "cefr": "A2",
+      "blocks": 10,
+      "vocabulary": 28,
+      "drills": 22
+    },
+    {
+      "book": 3,
+      "lessonId": 31,
+      "title": "Lesson 31",
+      "cefr": "A2",
+      "blocks": 17,
+      "vocabulary": 46,
+      "drills": 17
+    },
+    {
+      "book": 3,
+      "lessonId": 32,
+      "title": "Lesson 32",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 28,
+      "drills": 13
+    },
+    {
+      "book": 3,
+      "lessonId": 33,
+      "title": "Lesson 33",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 23,
+      "drills": 18
+    },
+    {
+      "book": 3,
+      "lessonId": 34,
+      "title": "Lesson 34",
+      "cefr": "A2",
+      "blocks": 17,
+      "vocabulary": 27,
+      "drills": 19
+    },
+    {
+      "book": 3,
+      "lessonId": 35,
+      "title": "Lesson 35",
+      "cefr": "A2",
+      "blocks": 16,
+      "vocabulary": 36,
+      "drills": 26
+    },
+    {
+      "book": 3,
+      "lessonId": 36,
+      "title": "Lesson 36",
+      "cefr": "A2",
+      "blocks": 16,
+      "vocabulary": 26,
+      "drills": 21
+    },
+    {
+      "book": 3,
+      "lessonId": 37,
+      "title": "Lesson 37",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 21,
+      "drills": 22
+    },
+    {
+      "book": 3,
+      "lessonId": 38,
+      "title": "Lesson 38",
+      "cefr": "A2",
+      "blocks": 18,
+      "vocabulary": 35,
+      "drills": 23
+    },
+    {
+      "book": 3,
+      "lessonId": 39,
+      "title": "Lesson 39",
+      "cefr": "A2",
+      "blocks": 17,
+      "vocabulary": 30,
+      "drills": 24
+    },
+    {
+      "book": 3,
+      "lessonId": 40,
+      "title": "Lesson 40",
+      "cefr": "A2",
+      "blocks": 67,
+      "vocabulary": 24,
+      "drills": 43
+    },
+    {
+      "book": 4,
+      "lessonId": 41,
+      "title": "Lesson 41",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 56,
+      "drills": 28
+    },
+    {
+      "book": 4,
+      "lessonId": 42,
+      "title": "Lesson 42",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 32,
+      "drills": 26
+    },
+    {
+      "book": 4,
+      "lessonId": 43,
+      "title": "Lesson 43",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 22,
+      "drills": 27
+    },
+    {
+      "book": 4,
+      "lessonId": 44,
+      "title": "Lesson 44",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 65,
+      "drills": 32
+    },
+    {
+      "book": 4,
+      "lessonId": 45,
+      "title": "Lesson 45",
+      "cefr": "A2",
+      "blocks": 11,
+      "vocabulary": 20,
+      "drills": 25
+    },
+    {
+      "book": 4,
+      "lessonId": 46,
+      "title": "Lesson 46",
+      "cefr": "A2",
+      "blocks": 20,
+      "vocabulary": 31,
+      "drills": 25
+    },
+    {
+      "book": 4,
+      "lessonId": 47,
+      "title": "Lesson 47",
+      "cefr": "A2",
+      "blocks": 17,
+      "vocabulary": 32,
+      "drills": 28
+    },
+    {
+      "book": 4,
+      "lessonId": 48,
+      "title": "Lesson 48",
+      "cefr": "A2",
+      "blocks": 18,
+      "vocabulary": 31,
+      "drills": 30
+    },
+    {
+      "book": 4,
+      "lessonId": 49,
+      "title": "Lesson 49",
+      "cefr": "A2",
+      "blocks": 12,
+      "vocabulary": 18,
+      "drills": 31
+    },
+    {
+      "book": 4,
+      "lessonId": 50,
+      "title": "Lesson 50",
+      "cefr": "A2",
+      "blocks": 6,
+      "vocabulary": 13,
+      "drills": 21
+    },
+    {
+      "book": 4,
+      "lessonId": 51,
+      "title": "Lesson 51",
+      "cefr": "A2",
+      "blocks": 10,
+      "vocabulary": 31,
+      "drills": 21
+    },
+    {
+      "book": 4,
+      "lessonId": 52,
+      "title": "Lesson 52",
+      "cefr": "A2",
+      "blocks": 8,
+      "vocabulary": 21,
+      "drills": 25
+    },
+    {
+      "book": 4,
+      "lessonId": 53,
+      "title": "Lesson 53",
+      "cefr": "A2",
+      "blocks": 11,
+      "vocabulary": 23,
+      "drills": 24
+    },
+    {
+      "book": 4,
+      "lessonId": 54,
+      "title": "Lesson 54",
+      "cefr": "A2",
+      "blocks": 12,
+      "vocabulary": 23,
+      "drills": 17
+    },
+    {
+      "book": 4,
+      "lessonId": 55,
+      "title": "Lesson 55",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 23,
+      "drills": 22
+    },
+    {
+      "book": 4,
+      "lessonId": 56,
+      "title": "Lesson 56",
+      "cefr": "A2",
+      "blocks": 12,
+      "vocabulary": 25,
+      "drills": 23
+    },
+    {
+      "book": 4,
+      "lessonId": 57,
+      "title": "Lesson 57",
+      "cefr": "A2",
+      "blocks": 12,
+      "vocabulary": 16,
+      "drills": 22
+    },
+    {
+      "book": 4,
+      "lessonId": 58,
+      "title": "Lesson 58",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 47,
+      "drills": 22
+    },
+    {
+      "book": 4,
+      "lessonId": 59,
+      "title": "Lesson 59",
+      "cefr": "A2",
+      "blocks": 15,
+      "vocabulary": 37,
+      "drills": 29
+    },
+    {
+      "book": 4,
+      "lessonId": 60,
+      "title": "Lesson 60",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 98,
+      "drills": 41
+    },
+    {
+      "book": 5,
+      "lessonId": 61,
+      "title": "Lesson 61",
+      "cefr": "A2",
+      "blocks": 17,
+      "vocabulary": 43,
+      "drills": 42
+    },
+    {
+      "book": 5,
+      "lessonId": 62,
+      "title": "Lesson 62",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 28,
+      "drills": 33
+    },
+    {
+      "book": 5,
+      "lessonId": 63,
+      "title": "Lesson 63",
+      "cefr": "A2",
+      "blocks": 11,
+      "vocabulary": 25,
+      "drills": 34
+    },
+    {
+      "book": 5,
+      "lessonId": 64,
+      "title": "Lesson 64",
+      "cefr": "A2",
+      "blocks": 12,
+      "vocabulary": 30,
+      "drills": 36
+    },
+    {
+      "book": 5,
+      "lessonId": 65,
+      "title": "Lesson 65",
+      "cefr": "A2",
+      "blocks": 23,
+      "vocabulary": 45,
+      "drills": 35
+    },
+    {
+      "book": 5,
+      "lessonId": 66,
+      "title": "Lesson 66",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 44,
+      "drills": 25
+    },
+    {
+      "book": 5,
+      "lessonId": 67,
+      "title": "Lesson 67",
+      "cefr": "A2",
+      "blocks": 18,
+      "vocabulary": 46,
+      "drills": 32
+    },
+    {
+      "book": 5,
+      "lessonId": 68,
+      "title": "Lesson 68",
+      "cefr": "A2",
+      "blocks": 15,
+      "vocabulary": 42,
+      "drills": 35
+    },
+    {
+      "book": 5,
+      "lessonId": 69,
+      "title": "Lesson 69",
+      "cefr": "A2",
+      "blocks": 20,
+      "vocabulary": 40,
+      "drills": 37
+    },
+    {
+      "book": 5,
+      "lessonId": 70,
+      "title": "Lesson 70",
+      "cefr": "A2",
+      "blocks": 18,
+      "vocabulary": 41,
+      "drills": 42
+    },
+    {
+      "book": 5,
+      "lessonId": 71,
+      "title": "Lesson 71",
+      "cefr": "A2",
+      "blocks": 19,
+      "vocabulary": 34,
+      "drills": 35
+    },
+    {
+      "book": 5,
+      "lessonId": 72,
+      "title": "Lesson 72",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 32,
+      "drills": 32
+    },
+    {
+      "book": 5,
+      "lessonId": 73,
+      "title": "Lesson 73",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 24,
+      "drills": 31
+    },
+    {
+      "book": 5,
+      "lessonId": 74,
+      "title": "Lesson 74",
+      "cefr": "A2",
+      "blocks": 16,
+      "vocabulary": 29,
+      "drills": 31
+    },
+    {
+      "book": 5,
+      "lessonId": 75,
+      "title": "Lesson 75",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 25,
+      "drills": 29
+    },
+    {
+      "book": 5,
+      "lessonId": 76,
+      "title": "Lesson 76",
+      "cefr": "A2",
+      "blocks": 18,
+      "vocabulary": 33,
+      "drills": 34
+    },
+    {
+      "book": 5,
+      "lessonId": 77,
+      "title": "Lesson 77",
+      "cefr": "A2",
+      "blocks": 75,
+      "vocabulary": 36,
+      "drills": 39
+    },
+    {
+      "book": 6,
+      "lessonId": 78,
+      "title": "Lesson 78",
+      "cefr": "A2",
+      "blocks": 12,
+      "vocabulary": 21,
+      "drills": 32
+    },
+    {
+      "book": 6,
+      "lessonId": 79,
+      "title": "Lesson 79",
+      "cefr": "A2",
+      "blocks": 9,
+      "vocabulary": 24,
+      "drills": 17
+    },
+    {
+      "book": 6,
+      "lessonId": 80,
+      "title": "Lesson 80",
+      "cefr": "A2",
+      "blocks": 6,
+      "vocabulary": 18,
+      "drills": 19
+    },
+    {
+      "book": 6,
+      "lessonId": 81,
+      "title": "Lesson 81",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 27,
+      "drills": 24
+    },
+    {
+      "book": 6,
+      "lessonId": 82,
+      "title": "Lesson 82",
+      "cefr": "A2",
+      "blocks": 17,
+      "vocabulary": 41,
+      "drills": 29
+    },
+    {
+      "book": 6,
+      "lessonId": 83,
+      "title": "Lesson 83",
+      "cefr": "A2",
+      "blocks": 12,
+      "vocabulary": 21,
+      "drills": 36
+    },
+    {
+      "book": 6,
+      "lessonId": 84,
+      "title": "Lesson 84",
+      "cefr": "A2",
+      "blocks": 8,
+      "vocabulary": 22,
+      "drills": 18
+    },
+    {
+      "book": 6,
+      "lessonId": 85,
+      "title": "Lesson 85",
+      "cefr": "A2",
+      "blocks": 10,
+      "vocabulary": 27,
+      "drills": 35
+    },
+    {
+      "book": 6,
+      "lessonId": 86,
+      "title": "Lesson 86",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 30,
+      "drills": 37
+    },
+    {
+      "book": 6,
+      "lessonId": 87,
+      "title": "Lesson 87",
+      "cefr": "A2",
+      "blocks": 17,
+      "vocabulary": 36,
+      "drills": 39
+    },
+    {
+      "book": 6,
+      "lessonId": 88,
+      "title": "Lesson 88",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 23,
+      "drills": 27
+    },
+    {
+      "book": 6,
+      "lessonId": 89,
+      "title": "Lesson 89",
+      "cefr": "A2",
+      "blocks": 10,
+      "vocabulary": 14,
+      "drills": 31
+    },
+    {
+      "book": 6,
+      "lessonId": 90,
+      "title": "Lesson 90",
+      "cefr": "A2",
+      "blocks": 14,
+      "vocabulary": 37,
+      "drills": 27
+    },
+    {
+      "book": 6,
+      "lessonId": 91,
+      "title": "Lesson 91",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 32,
+      "drills": 36
+    },
+    {
+      "book": 6,
+      "lessonId": 92,
+      "title": "Lesson 92",
+      "cefr": "A2",
+      "blocks": 10,
+      "vocabulary": 21,
+      "drills": 28
+    },
+    {
+      "book": 6,
+      "lessonId": 93,
+      "title": "Lesson 93",
+      "cefr": "A2",
+      "blocks": 13,
+      "vocabulary": 27,
+      "drills": 28
+    },
+    {
+      "book": 6,
+      "lessonId": 94,
+      "title": "Lesson 94",
+      "cefr": "A2",
+      "blocks": 18,
+      "vocabulary": 46,
+      "drills": 46
+    },
+    {
+      "book": 7,
+      "lessonId": 95,
+      "title": "Lesson 95",
+      "cefr": "B1",
+      "blocks": 14,
+      "vocabulary": 22,
+      "drills": 35
+    },
+    {
+      "book": 7,
+      "lessonId": 96,
+      "title": "Lesson 96",
+      "cefr": "B1",
+      "blocks": 10,
+      "vocabulary": 25,
+      "drills": 26
+    },
+    {
+      "book": 7,
+      "lessonId": 97,
+      "title": "Lesson 97",
+      "cefr": "B1",
+      "blocks": 14,
+      "vocabulary": 24,
+      "drills": 39
+    },
+    {
+      "book": 7,
+      "lessonId": 98,
+      "title": "Lesson 98",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 26,
+      "drills": 41
+    },
+    {
+      "book": 7,
+      "lessonId": 99,
+      "title": "Lesson 99",
+      "cefr": "B1",
+      "blocks": 11,
+      "vocabulary": 27,
+      "drills": 24
+    },
+    {
+      "book": 7,
+      "lessonId": 100,
+      "title": "Lesson 100",
+      "cefr": "B1",
+      "blocks": 16,
+      "vocabulary": 34,
+      "drills": 34
+    },
+    {
+      "book": 7,
+      "lessonId": 101,
+      "title": "Lesson 101",
+      "cefr": "B1",
+      "blocks": 16,
+      "vocabulary": 36,
+      "drills": 30
+    },
+    {
+      "book": 7,
+      "lessonId": 102,
+      "title": "Lesson 102",
+      "cefr": "B1",
+      "blocks": 9,
+      "vocabulary": 27,
+      "drills": 25
+    },
+    {
+      "book": 7,
+      "lessonId": 103,
+      "title": "Lesson 103",
+      "cefr": "B1",
+      "blocks": 15,
+      "vocabulary": 29,
+      "drills": 32
+    },
+    {
+      "book": 7,
+      "lessonId": 104,
+      "title": "Lesson 104",
+      "cefr": "B1",
+      "blocks": 13,
+      "vocabulary": 32,
+      "drills": 33
+    },
+    {
+      "book": 7,
+      "lessonId": 105,
+      "title": "Lesson 105",
+      "cefr": "B1",
+      "blocks": 14,
+      "vocabulary": 23,
+      "drills": 24
+    },
+    {
+      "book": 7,
+      "lessonId": 106,
+      "title": "Lesson 106",
+      "cefr": "B1",
+      "blocks": 16,
+      "vocabulary": 37,
+      "drills": 37
+    },
+    {
+      "book": 7,
+      "lessonId": 107,
+      "title": "Lesson 107",
+      "cefr": "B1",
+      "blocks": 11,
+      "vocabulary": 30,
+      "drills": 17
+    },
+    {
+      "book": 7,
+      "lessonId": 108,
+      "title": "Lesson 108",
+      "cefr": "B1",
+      "blocks": 12,
+      "vocabulary": 28,
+      "drills": 24
+    },
+    {
+      "book": 7,
+      "lessonId": 109,
+      "title": "Lesson 109",
+      "cefr": "B1",
+      "blocks": 13,
+      "vocabulary": 29,
+      "drills": 27
+    },
+    {
+      "book": 7,
+      "lessonId": 110,
+      "title": "Lesson 110",
+      "cefr": "B1",
+      "blocks": 11,
+      "vocabulary": 30,
+      "drills": 28
+    },
+    {
+      "book": 7,
+      "lessonId": 111,
+      "title": "Lesson 111",
+      "cefr": "B1",
+      "blocks": 76,
+      "vocabulary": 55,
+      "drills": 41
+    },
+    {
+      "book": 8,
+      "lessonId": 112,
+      "title": "Lesson 112",
+      "cefr": "B1",
+      "blocks": 23,
+      "vocabulary": 45,
+      "drills": 39
+    },
+    {
+      "book": 8,
+      "lessonId": 113,
+      "title": "Lesson 113",
+      "cefr": "B1",
+      "blocks": 11,
+      "vocabulary": 31,
+      "drills": 29
+    },
+    {
+      "book": 8,
+      "lessonId": 114,
+      "title": "Lesson 114",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 46,
+      "drills": 26
+    },
+    {
+      "book": 8,
+      "lessonId": 115,
+      "title": "Lesson 115",
+      "cefr": "B1",
+      "blocks": 12,
+      "vocabulary": 17,
+      "drills": 32
+    },
+    {
+      "book": 8,
+      "lessonId": 116,
+      "title": "Lesson 116",
+      "cefr": "B1",
+      "blocks": 15,
+      "vocabulary": 42,
+      "drills": 33
+    },
+    {
+      "book": 8,
+      "lessonId": 117,
+      "title": "Lesson 117",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 54,
+      "drills": 34
+    },
+    {
+      "book": 8,
+      "lessonId": 118,
+      "title": "Lesson 118",
+      "cefr": "B1",
+      "blocks": 19,
+      "vocabulary": 36,
+      "drills": 33
+    },
+    {
+      "book": 8,
+      "lessonId": 119,
+      "title": "Lesson 119",
+      "cefr": "B1",
+      "blocks": 16,
+      "vocabulary": 34,
+      "drills": 35
+    },
+    {
+      "book": 8,
+      "lessonId": 120,
+      "title": "Lesson 120",
+      "cefr": "B1",
+      "blocks": 15,
+      "vocabulary": 22,
+      "drills": 33
+    },
+    {
+      "book": 8,
+      "lessonId": 121,
+      "title": "Lesson 121",
+      "cefr": "B1",
+      "blocks": 17,
+      "vocabulary": 30,
+      "drills": 38
+    },
+    {
+      "book": 8,
+      "lessonId": 122,
+      "title": "Lesson 122",
+      "cefr": "B1",
+      "blocks": 20,
+      "vocabulary": 49,
+      "drills": 42
+    },
+    {
+      "book": 8,
+      "lessonId": 123,
+      "title": "Lesson 123",
+      "cefr": "B1",
+      "blocks": 12,
+      "vocabulary": 26,
+      "drills": 29
+    },
+    {
+      "book": 8,
+      "lessonId": 124,
+      "title": "Lesson 124",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 35,
+      "drills": 28
+    },
+    {
+      "book": 8,
+      "lessonId": 125,
+      "title": "Lesson 125",
+      "cefr": "B1",
+      "blocks": 11,
+      "vocabulary": 21,
+      "drills": 31
+    },
+    {
+      "book": 8,
+      "lessonId": 126,
+      "title": "Lesson 126",
+      "cefr": "B1",
+      "blocks": 24,
+      "vocabulary": 35,
+      "drills": 58
+    },
+    {
+      "book": 9,
+      "lessonId": 127,
+      "title": "Lesson 127",
+      "cefr": "B1",
+      "blocks": 22,
+      "vocabulary": 37,
+      "drills": 30
+    },
+    {
+      "book": 9,
+      "lessonId": 128,
+      "title": "Lesson 128",
+      "cefr": "B1",
+      "blocks": 24,
+      "vocabulary": 40,
+      "drills": 34
+    },
+    {
+      "book": 9,
+      "lessonId": 129,
+      "title": "Lesson 129",
+      "cefr": "B1",
+      "blocks": 23,
+      "vocabulary": 44,
+      "drills": 37
+    },
+    {
+      "book": 9,
+      "lessonId": 130,
+      "title": "Lesson 130",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 36,
+      "drills": 25
+    },
+    {
+      "book": 9,
+      "lessonId": 131,
+      "title": "Lesson 131",
+      "cefr": "B1",
+      "blocks": 13,
+      "vocabulary": 24,
+      "drills": 26
+    },
+    {
+      "book": 9,
+      "lessonId": 132,
+      "title": "Lesson 132",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 31,
+      "drills": 33
+    },
+    {
+      "book": 9,
+      "lessonId": 133,
+      "title": "Lesson 133",
+      "cefr": "B1",
+      "blocks": 14,
+      "vocabulary": 30,
+      "drills": 30
+    },
+    {
+      "book": 9,
+      "lessonId": 134,
+      "title": "Lesson 134",
+      "cefr": "B1",
+      "blocks": 16,
+      "vocabulary": 33,
+      "drills": 32
+    },
+    {
+      "book": 9,
+      "lessonId": 135,
+      "title": "Lesson 135",
+      "cefr": "B1",
+      "blocks": 42,
+      "vocabulary": 89,
+      "drills": 76
+    },
+    {
+      "book": 9,
+      "lessonId": 137,
+      "title": "Lesson 137",
+      "cefr": "B1",
+      "blocks": 19,
+      "vocabulary": 48,
+      "drills": 34
+    },
+    {
+      "book": 9,
+      "lessonId": 138,
+      "title": "Lesson 138",
+      "cefr": "B1",
+      "blocks": 16,
+      "vocabulary": 39,
+      "drills": 32
+    },
+    {
+      "book": 9,
+      "lessonId": 139,
+      "title": "Lesson 139",
+      "cefr": "B1",
+      "blocks": 17,
+      "vocabulary": 39,
+      "drills": 38
+    },
+    {
+      "book": 9,
+      "lessonId": 140,
+      "title": "Lesson 140",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 36,
+      "drills": 26
+    },
+    {
+      "book": 9,
+      "lessonId": 141,
+      "title": "Lesson 141",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 31,
+      "drills": 28
+    },
+    {
+      "book": 9,
+      "lessonId": 142,
+      "title": "Lesson 142",
+      "cefr": "B1",
+      "blocks": 26,
+      "vocabulary": 49,
+      "drills": 28
+    },
+    {
+      "book": 9,
+      "lessonId": 143,
+      "title": "Lesson 143",
+      "cefr": "B1",
+      "blocks": 19,
+      "vocabulary": 49,
+      "drills": 26
+    },
+    {
+      "book": 9,
+      "lessonId": 144,
+      "title": "Lesson 144",
+      "cefr": "B1",
+      "blocks": 17,
+      "vocabulary": 39,
+      "drills": 26
+    },
+    {
+      "book": 10,
+      "lessonId": 146,
+      "title": "Lesson 146",
+      "cefr": "B1",
+      "blocks": 11,
+      "vocabulary": 27,
+      "drills": 23
+    },
+    {
+      "book": 10,
+      "lessonId": 147,
+      "title": "Lesson 147",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 35,
+      "drills": 24
+    },
+    {
+      "book": 10,
+      "lessonId": 148,
+      "title": "Lesson 148",
+      "cefr": "B1",
+      "blocks": 16,
+      "vocabulary": 38,
+      "drills": 26
+    },
+    {
+      "book": 10,
+      "lessonId": 149,
+      "title": "Lesson 149",
+      "cefr": "B1",
+      "blocks": 18,
+      "vocabulary": 34,
+      "drills": 25
+    },
+    {
+      "book": 10,
+      "lessonId": 150,
+      "title": "Lesson 150",
+      "cefr": "B1",
+      "blocks": 19,
+      "vocabulary": 40,
+      "drills": 23
+    },
+    {
+      "book": 10,
+      "lessonId": 151,
+      "title": "Lesson 151",
+      "cefr": "B1",
+      "blocks": 23,
+      "vocabulary": 43,
+      "drills": 38
+    },
+    {
+      "book": 10,
+      "lessonId": 152,
+      "title": "Lesson 152",
+      "cefr": "B1",
+      "blocks": 20,
+      "vocabulary": 47,
+      "drills": 21
+    },
+    {
+      "book": 10,
+      "lessonId": 153,
+      "title": "Lesson 153",
+      "cefr": "B1",
+      "blocks": 21,
+      "vocabulary": 43,
+      "drills": 21
+    },
+    {
+      "book": 10,
+      "lessonId": 154,
+      "title": "Lesson 154",
+      "cefr": "B1",
+      "blocks": 22,
+      "vocabulary": 32,
+      "drills": 26
+    },
+    {
+      "book": 10,
+      "lessonId": 155,
+      "title": "Lesson 155",
+      "cefr": "B1",
+      "blocks": 20,
+      "vocabulary": 40,
+      "drills": 30
+    },
+    {
+      "book": 10,
+      "lessonId": 156,
+      "title": "Lesson 156",
+      "cefr": "B1",
+      "blocks": 22,
+      "vocabulary": 41,
+      "drills": 32
+    },
+    {
+      "book": 10,
+      "lessonId": 157,
+      "title": "Lesson 157",
+      "cefr": "B1",
+      "blocks": 21,
+      "vocabulary": 39,
+      "drills": 27
+    },
+    {
+      "book": 10,
+      "lessonId": 158,
+      "title": "Lesson 158",
+      "cefr": "B1",
+      "blocks": 25,
+      "vocabulary": 46,
+      "drills": 28
+    },
+    {
+      "book": 10,
+      "lessonId": 159,
+      "title": "Lesson 159",
+      "cefr": "B1",
+      "blocks": 24,
+      "vocabulary": 47,
+      "drills": 26
+    },
+    {
+      "book": 10,
+      "lessonId": 160,
+      "title": "Lesson 160",
+      "cefr": "B1",
+      "blocks": 30,
+      "vocabulary": 44,
+      "drills": 28
+    },
+    {
+      "book": 10,
+      "lessonId": 161,
+      "title": "Lesson 161",
+      "cefr": "B1",
+      "blocks": 31,
+      "vocabulary": 60,
+      "drills": 38
+    },
+    {
+      "book": 10,
+      "lessonId": 162,
+      "title": "Lesson 162",
+      "cefr": "B1",
+      "blocks": 27,
+      "vocabulary": 41,
+      "drills": 32
+    },
+    {
+      "book": 10,
+      "lessonId": 163,
+      "title": "Lesson 163",
+      "cefr": "B1",
+      "blocks": 54,
+      "vocabulary": 47,
+      "drills": 37
+    },
+    {
+      "book": 11,
+      "lessonId": 164,
+      "title": "Lesson 164",
+      "cefr": "B2",
+      "blocks": 28,
+      "vocabulary": 62,
+      "drills": 34
+    },
+    {
+      "book": 11,
+      "lessonId": 165,
+      "title": "Lesson 165",
+      "cefr": "B2",
+      "blocks": 49,
+      "vocabulary": 128,
+      "drills": 31
+    },
+    {
+      "book": 11,
+      "lessonId": 166,
+      "title": "Lesson 166",
+      "cefr": "B2",
+      "blocks": 28,
+      "vocabulary": 109,
+      "drills": 35
+    },
+    {
+      "book": 11,
+      "lessonId": 167,
+      "title": "Lesson 167",
+      "cefr": "B2",
+      "blocks": 31,
+      "vocabulary": 91,
+      "drills": 21
+    },
+    {
+      "book": 11,
+      "lessonId": 168,
+      "title": "Lesson 168",
+      "cefr": "B2",
+      "blocks": 28,
+      "vocabulary": 65,
+      "drills": 34
+    },
+    {
+      "book": 11,
+      "lessonId": 169,
+      "title": "Lesson 169",
+      "cefr": "B2",
+      "blocks": 39,
+      "vocabulary": 108,
+      "drills": 36
+    },
+    {
+      "book": 11,
+      "lessonId": 170,
+      "title": "Lesson 170",
+      "cefr": "B2",
+      "blocks": 27,
+      "vocabulary": 73,
+      "drills": 23
+    },
+    {
+      "book": 11,
+      "lessonId": 171,
+      "title": "Lesson 171",
+      "cefr": "B2",
+      "blocks": 24,
+      "vocabulary": 121,
+      "drills": 22
+    },
+    {
+      "book": 11,
+      "lessonId": 172,
+      "title": "Lesson 172",
+      "cefr": "B2",
+      "blocks": 31,
+      "vocabulary": 61,
+      "drills": 40
+    },
+    {
+      "book": 11,
+      "lessonId": 173,
+      "title": "Lesson 173",
+      "cefr": "B2",
+      "blocks": 37,
+      "vocabulary": 103,
+      "drills": 26
+    },
+    {
+      "book": 11,
+      "lessonId": 174,
+      "title": "Lesson 174",
+      "cefr": "B2",
+      "blocks": 31,
+      "vocabulary": 64,
+      "drills": 32
+    },
+    {
+      "book": 11,
+      "lessonId": 175,
+      "title": "Lesson 175",
+      "cefr": "B2",
+      "blocks": 25,
+      "vocabulary": 64,
+      "drills": 34
+    },
+    {
+      "book": 11,
+      "lessonId": 176,
+      "title": "Lesson 176",
+      "cefr": "B2",
+      "blocks": 27,
+      "vocabulary": 106,
+      "drills": 26
+    },
+    {
+      "book": 11,
+      "lessonId": 177,
+      "title": "Lesson 177",
+      "cefr": "B2",
+      "blocks": 20,
+      "vocabulary": 38,
+      "drills": 20
+    },
+    {
+      "book": 12,
+      "lessonId": 178,
+      "title": "Lesson 178",
+      "cefr": "B2",
+      "blocks": 36,
+      "vocabulary": 95,
+      "drills": 22
+    },
+    {
+      "book": 12,
+      "lessonId": 179,
+      "title": "Lesson 179",
+      "cefr": "B2",
+      "blocks": 36,
+      "vocabulary": 74,
+      "drills": 33
+    },
+    {
+      "book": 12,
+      "lessonId": 180,
+      "title": "Lesson 180",
+      "cefr": "B2",
+      "blocks": 31,
+      "vocabulary": 108,
+      "drills": 26
+    },
+    {
+      "book": 12,
+      "lessonId": 181,
+      "title": "Lesson 181",
+      "cefr": "B2",
+      "blocks": 29,
+      "vocabulary": 67,
+      "drills": 34
+    },
+    {
+      "book": 12,
+      "lessonId": 182,
+      "title": "Lesson 182",
+      "cefr": "B2",
+      "blocks": 31,
+      "vocabulary": 59,
+      "drills": 29
+    },
+    {
+      "book": 12,
+      "lessonId": 183,
+      "title": "Lesson 183",
+      "cefr": "B2",
+      "blocks": 47,
+      "vocabulary": 105,
+      "drills": 40
+    },
+    {
+      "book": 12,
+      "lessonId": 184,
+      "title": "Lesson 184",
+      "cefr": "B2",
+      "blocks": 44,
+      "vocabulary": 69,
+      "drills": 41
+    },
+    {
+      "book": 12,
+      "lessonId": 185,
+      "title": "Lesson 185",
+      "cefr": "B2",
+      "blocks": 37,
+      "vocabulary": 115,
+      "drills": 27
+    },
+    {
+      "book": 12,
+      "lessonId": 186,
+      "title": "Lesson 186",
+      "cefr": "B2",
+      "blocks": 37,
+      "vocabulary": 99,
+      "drills": 32
+    },
+    {
+      "book": 12,
+      "lessonId": 187,
+      "title": "Lesson 187",
+      "cefr": "B2",
+      "blocks": 29,
+      "vocabulary": 100,
+      "drills": 29
+    },
+    {
+      "book": 12,
+      "lessonId": 188,
+      "title": "Lesson 188",
+      "cefr": "B2",
+      "blocks": 32,
+      "vocabulary": 66,
+      "drills": 43
+    },
+    {
+      "book": 12,
+      "lessonId": 189,
+      "title": "Lesson 189",
+      "cefr": "B2",
+      "blocks": 21,
+      "vocabulary": 47,
+      "drills": 29
+    },
+    {
+      "book": 12,
+      "lessonId": 190,
+      "title": "Lesson 190",
+      "cefr": "B2",
+      "blocks": 43,
+      "vocabulary": 79,
+      "drills": 37
+    },
+    {
+      "book": 12,
+      "lessonId": 191,
+      "title": "Lesson 191",
+      "cefr": "B2",
+      "blocks": 6,
+      "vocabulary": 45,
+      "drills": 15
+    }
+  ]
+}

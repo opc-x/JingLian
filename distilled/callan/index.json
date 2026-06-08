@@ -1,0 +1,161 @@
+{
+  "books": [
+    {
+      "book": 1,
+      "title": "Callan Method Book 1",
+      "file": "book-01.json",
+      "lessonCount": 9,
+      "cefr": "A1",
+      "stats": {
+        "vocabulary": 347,
+        "drills": 214,
+        "blocks": 170
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 2,
+      "title": "Callan Method Book 2",
+      "file": "book-02.json",
+      "lessonCount": 15,
+      "cefr": "A1",
+      "stats": {
+        "vocabulary": 560,
+        "drills": 309,
+        "blocks": 302
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 3,
+      "title": "Callan Method Book 3",
+      "file": "book-03.json",
+      "lessonCount": 16,
+      "cefr": "A2",
+      "stats": {
+        "vocabulary": 504,
+        "drills": 333,
+        "blocks": 293
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 4,
+      "title": "Callan Method Book 4",
+      "file": "book-04.json",
+      "lessonCount": 20,
+      "cefr": "A2",
+      "stats": {
+        "vocabulary": 664,
+        "drills": 519,
+        "blocks": 258
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 5,
+      "title": "Callan Method Book 5",
+      "file": "book-05.json",
+      "lessonCount": 17,
+      "cefr": "A2",
+      "stats": {
+        "vocabulary": 597,
+        "drills": 582,
+        "blocks": 330
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 6,
+      "title": "Callan Method Book 6",
+      "file": "book-06.json",
+      "lessonCount": 17,
+      "cefr": "A2",
+      "stats": {
+        "vocabulary": 467,
+        "drills": 509,
+        "blocks": 209
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 7,
+      "title": "Callan Method Book 7",
+      "file": "book-07.json",
+      "lessonCount": 17,
+      "cefr": "B1",
+      "stats": {
+        "vocabulary": 514,
+        "drills": 517,
+        "blocks": 289
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 8,
+      "title": "Callan Method Book 8",
+      "file": "book-08.json",
+      "lessonCount": 15,
+      "cefr": "B1",
+      "stats": {
+        "vocabulary": 523,
+        "drills": 520,
+        "blocks": 249
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 9,
+      "title": "Callan Method Book 9",
+      "file": "book-09.json",
+      "lessonCount": 17,
+      "cefr": "B1",
+      "stats": {
+        "vocabulary": 694,
+        "drills": 561,
+        "blocks": 340
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 10,
+      "title": "Callan Method Book 10",
+      "file": "book-10.json",
+      "lessonCount": 18,
+      "cefr": "B1",
+      "stats": {
+        "vocabulary": 744,
+        "drills": 505,
+        "blocks": 422
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 11,
+      "title": "Callan Method Book 11",
+      "file": "book-11.json",
+      "lessonCount": 14,
+      "cefr": "B2",
+      "stats": {
+        "vocabulary": 1193,
+        "drills": 414,
+        "blocks": 425
+      },
+      "distilledAt": "2026-06-08"
+    },
+    {
+      "book": 12,
+      "title": "Callan Method Book 12",
+      "file": "book-12.json",
+      "lessonCount": 14,
+      "cefr": "B2",
+      "stats": {
+        "vocabulary": 1128,
+        "drills": 437,
+        "blocks": 459
+      },
+      "distilledAt": "2026-06-08"
+    }
+  ],
+  "updatedAt": "2026-06-08"
+}

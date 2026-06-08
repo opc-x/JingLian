@@ -1,0 +1,51 @@
+{
+  "source": "Callan Method approximate CEFR alignment (reference for learning path)",
+  "levels": [
+    {
+      "cefr": "A1",
+      "label": "入门级",
+      "books": [1, 2],
+      "lessonRange": { "from": 1, "to": 24 },
+      "skills": ["基础问答", "教室/物品词汇", "be 动词", "简单位置介词"],
+      "canDo": ["用简单句介绍物品与身份", "回答 What's this / Where is 类问题"]
+    },
+    {
+      "cefr": "A2",
+      "label": "初级",
+      "books": [3, 4, 5, 6],
+      "lessonRange": { "from": 25, "to": 94 },
+      "skills": ["过去时入门", "比较级", "更多时态", "日常场景扩展"],
+      "canDo": ["描述日常动作与位置", "使用常见过去时表达"]
+    },
+    {
+      "cefr": "B1",
+      "label": "中级",
+      "books": [7, 8, 9, 10],
+      "lessonRange": { "from": 95, "to": 160 },
+      "skills": ["复杂句式", "条件句", "被动语态入门", "抽象话题"],
+      "canDo": ["连贯描述经历与观点", "处理多数日常与工作场景"]
+    },
+    {
+      "cefr": "B2",
+      "label": "中高级",
+      "books": [11, 12],
+      "lessonRange": { "from": 164, "to": 188 },
+      "skills": ["高级语法", "习语表达", "快速反应", "近母语速度"],
+      "canDo": ["流利快问快答", "处理复杂语法与词汇替换"]
+    }
+  ],
+  "bookCefr": {
+    "1": "A1",
+    "2": "A1",
+    "3": "A2",
+    "4": "A2",
+    "5": "A2",
+    "6": "A2",
+    "7": "B1",
+    "8": "B1",
+    "9": "B1",
+    "10": "B1",
+    "11": "B2",
+    "12": "B2"
+  }
+}

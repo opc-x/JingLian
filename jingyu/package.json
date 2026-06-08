@@ -1,0 +1,18 @@
+{
+  "name": "jingyu",
+  "private": true,
+  "version": "0.1.0",
+  "description": "精语 JingYu — AI 精炼的多教材口语学习网站",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/sync-data.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/sync-data.mjs",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vite": "^6.3.0"
+  }
+}

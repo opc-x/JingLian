@@ -1,26 +1,39 @@
 # JingLian 架构
 
-## 两层资产
+## 品牌分层
 
 ```
-sources/     原材料（PDF、提取 JSON）— 只读
-distilled/   精炼产物 — Agent 可反复迭代
+JingLian（引擎）          JingYu 精语（网站）
+     │                          │
+ sources/ ──► distilled/ ──► jingyu/public/
+  原材料        精炼 JSON        学习 UI
 ```
+
+| 层 | 路径 | 说明 |
+|----|------|------|
+| 原料 | `sources/*/raw/` | Callan 等 PDF，只读 |
+| 提取 | `sources/*/extracted/` | 脚本结构化 JSON |
+| 蒸馏 | `distilled/` | AI/规则精炼后的学习内容 |
+| 呈现 | `jingyu/` | 精语网站，消费 `distilled/` |
 
 ## 流水线
 
-1. **Import**：PDF 入库 `sources/*/raw/`
-2. **Extract**：脚本把 PDF → 结构化 JSON（问答、词汇）
-3. **Distill**：Agent 按模板重组 → `distilled/`
-4. **Consume**：TalkFlow / App / Anki 等下游消费 `distilled/`
+1. **Import** — PDF 入库 `sources/`
+2. **Extract** — `extract_callan.py` → 问答、词汇 JSON
+3. **Distill** — `distill_callan.py` → 场景化精炼 JSON
+4. **Publish** — `jingyu/scripts/sync-data.mjs` → 网站静态数据
+5. **Learn** — 用户在 **JingYu** 浏览、练习、验收
 
 ## 扩展新教材
 
 ```
 sources/
 ├── callan/
-├── other-method-x/    # 以后加
+├── other-method/     # 以后加
 └── ...
+distilled/
+├── callan/
+└── other-method/
 ```
 
-每种教材：`raw/` + `meta/manifest.json` + `extracted/` + 对应 `distilled/` 子目录。
+精语网站按 `distilled/index.json` 聚合展示多教材。

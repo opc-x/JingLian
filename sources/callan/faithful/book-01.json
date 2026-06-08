@@ -1,0 +1,6001 @@
+{
+  "book": 1,
+  "mode": "faithful",
+  "policy": "教材原样保留：页图 + 逐行原文。禁止在此文件内做蒸馏/修复/删改。",
+  "title": "Callan Method Book 1",
+  "cefr": "A1",
+  "lessonCount": 9,
+  "lessons": [
+    {
+      "lessonId": 1,
+      "title": "Lesson 1",
+      "pageCount": 3,
+      "pages": [
+        {
+          "pageNum": 12,
+          "image": "pages/book-01/lesson-01-p012.png",
+          "lineCount": 46,
+          "lines": [
+            {
+              "text": "LESSON 1",
+              "encrypted": false
+            },
+            {
+              "text": "pen",
+              "encrypted": false
+            },
+            {
+              "text": "pencil",
+              "encrypted": false
+            },
+            {
+              "text": "book",
+              "encrypted": false
+            },
+            {
+              "text": "a",
+              "encrypted": false
+            },
+            {
+              "text": "1",
+              "encrypted": false
+            },
+            {
+              "text": "what is (what’s)",
+              "encrypted": false
+            },
+            {
+              "text": "this",
+              "encrypted": false
+            },
+            {
+              "text": "it is (it’s)",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a pen",
+              "encrypted": false
+            },
+            {
+              "text": "2",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1 (at the end of this book)",
+              "encrypted": false
+            },
+            {
+              "text": "table",
+              "encrypted": false
+            },
+            {
+              "text": "chair",
+              "encrypted": false
+            },
+            {
+              "text": "light",
+              "encrypted": false
+            },
+            {
+              "text": "wall",
+              "encrypted": false
+            },
+            {
+              "text": "ﬂoor",
+              "encrypted": false
+            },
+            {
+              "text": "room",
+              "encrypted": false
+            },
+            {
+              "text": "ceiling",
+              "encrypted": false
+            },
+            {
+              "text": "window",
+              "encrypted": false
+            },
+            {
+              "text": "door",
+              "encrypted": false
+            },
+            {
+              "text": "clock",
+              "encrypted": false
+            },
+            {
+              "text": "box",
+              "encrypted": false
+            },
+            {
+              "text": "picture",
+              "encrypted": false
+            },
+            {
+              "text": "is this?",
+              "encrypted": false
+            },
+            {
+              "text": "yes",
+              "encrypted": false
+            },
+            {
+              "text": "Is this a pen? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001Yes, it’s a pen",
+              "encrypted": false
+            },
+            {
+              "text": "no, it is not (isn’t)",
+              "encrypted": false
+            },
+            {
+              "text": "Is this a pen?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t a pen; it’s a pencil",
+              "encrypted": false
+            },
+            {
+              "text": "Is this a pencil?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t a pencil; it’s a book",
+              "encrypted": false
+            },
+            {
+              "text": "3",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "long",
+              "encrypted": false
+            },
+            {
+              "text": "short",
+              "encrypted": false
+            },
+            {
+              "text": "the",
+              "encrypted": false
+            },
+            {
+              "text": "contraction",
+              "encrypted": false
+            },
+            {
+              "text": "Is the pen short?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the pen isn’t short; it’s long",
+              "encrypted": false
+            },
+            {
+              "text": "Is the pencil long?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the pencil isn’t long; it’s short",
+              "encrypted": false
+            },
+            {
+              "text": "Is the room short?  ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, the room isn’t short; it’s long",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 13,
+          "image": "pages/book-01/lesson-01-p013.png",
+          "lineCount": 55,
+          "lines": [
+            {
+              "text": "large",
+              "encrypted": false
+            },
+            {
+              "text": "small",
+              "encrypted": false
+            },
+            {
+              "text": "Is the table small? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the table isn’t small; it’s large",
+              "encrypted": false
+            },
+            {
+              "text": "Is the box large? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the box isn’t large; it’s small",
+              "encrypted": false
+            },
+            {
+              "text": "4",
+              "encrypted": false
+            },
+            {
+              "text": "city",
+              "encrypted": false
+            },
+            {
+              "text": "town",
+              "encrypted": false
+            },
+            {
+              "text": "village",
+              "encrypted": false
+            },
+            {
+              "text": "London is a city. Windsor is a town. Grantchester is a village.",
+              "encrypted": false
+            },
+            {
+              "text": "Is (London",
+              "encrypted": true
+            },
+            {
+              "text": " a village?  ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, (London) isn’t a village; it’s a city",
+              "encrypted": false
+            },
+            {
+              "text": "Is (Windsor",
+              "encrypted": true
+            },
+            {
+              "text": " a city?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, (Windsor) isn’t a city; it’s a town",
+              "encrypted": false
+            },
+            {
+              "text": "Is (Grantchester",
+              "encrypted": true
+            },
+            {
+              "text": " a town?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, (Grantchester) isn’t a",
+              "encrypted": false
+            },
+            {
+              "text": "town; it’s a village",
+              "encrypted": false
+            },
+            {
+              "text": "or",
+              "encrypted": false
+            },
+            {
+              "text": "Is the table long or short?  ",
+              "encrypted": true
+            },
+            {
+              "text": "The table’s ...",
+              "encrypted": false
+            },
+            {
+              "text": "Is a city large or small?  ",
+              "encrypted": true
+            },
+            {
+              "text": "A city’s large",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "man",
+              "encrypted": false
+            },
+            {
+              "text": "woman",
+              "encrypted": false
+            },
+            {
+              "text": "boy",
+              "encrypted": false
+            },
+            {
+              "text": "girl",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a man. It’s a woman. It’s a boy. It’s a girl.",
+              "encrypted": false
+            },
+            {
+              "text": "Is this a girl?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t a girl; it’s a man",
+              "encrypted": false
+            },
+            {
+              "text": "5",
+              "encrypted": false
+            },
+            {
+              "text": "Is this a man? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t a man; it’s a woman",
+              "encrypted": false
+            },
+            {
+              "text": "Is this a woman? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t a woman; it’s a boy",
+              "encrypted": false
+            },
+            {
+              "text": "Is this a boy? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t a boy; it’s a girl",
+              "encrypted": false
+            },
+            {
+              "text": "one",
+              "encrypted": false
+            },
+            {
+              "text": "two",
+              "encrypted": false
+            },
+            {
+              "text": "three",
+              "encrypted": false
+            },
+            {
+              "text": "four",
+              "encrypted": false
+            },
+            {
+              "text": "ﬁve",
+              "encrypted": false
+            },
+            {
+              "text": "1",
+              "encrypted": false
+            },
+            {
+              "text": "2",
+              "encrypted": false
+            },
+            {
+              "text": "3",
+              "encrypted": false
+            },
+            {
+              "text": "4",
+              "encrypted": false
+            },
+            {
+              "text": "5",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 14,
+          "image": "pages/book-01/lesson-01-p014.png",
+          "lineCount": 58,
+          "lines": [
+            {
+              "text": "on",
+              "encrypted": false
+            },
+            {
+              "text": "under",
+              "encrypted": false
+            },
+            {
+              "text": "in",
+              "encrypted": false
+            },
+            {
+              "text": "Is the pen in the book?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the pen isn’t in the book;",
+              "encrypted": false
+            },
+            {
+              "text": "it’s under the book",
+              "encrypted": false
+            },
+            {
+              "text": "Is the pen under the book?  ?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the pen isn’t under the",
+              "encrypted": false
+            },
+            {
+              "text": "book; it’s on the book",
+              "encrypted": false
+            },
+            {
+              "text": "6",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "Mr",
+              "encrypted": false
+            },
+            {
+              "text": "Mrs",
+              "encrypted": false
+            },
+            {
+              "text": "Jack",
+              "encrypted": false
+            },
+            {
+              "text": "Anna",
+              "encrypted": false
+            },
+            {
+              "text": "Is this Anna Brown?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t Anna Brown; it’s Mr Brown",
+              "encrypted": false
+            },
+            {
+              "text": "Is this Mr Brown?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t Mr Brown; it’s Mrs Brown",
+              "encrypted": false
+            },
+            {
+              "text": "Is this Mrs Brown?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t Mrs Brown; it’s Jack Brown",
+              "encrypted": false
+            },
+            {
+              "text": "Is this Jack Brown?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t Jack Brown; it’s Anna Brown",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "black",
+              "encrypted": false
+            },
+            {
+              "text": "white",
+              "encrypted": false
+            },
+            {
+              "text": "green",
+              "encrypted": false
+            },
+            {
+              "text": "brown",
+              "encrypted": false
+            },
+            {
+              "text": "what colour?",
+              "encrypted": false
+            },
+            {
+              "text": "7",
+              "encrypted": false
+            },
+            {
+              "text": "What colour’s this pencil?",
+              "encrypted": false
+            },
+            {
+              "text": "This pencil’s black, white etc.",
+              "encrypted": false
+            },
+            {
+              "text": "six",
+              "encrypted": false
+            },
+            {
+              "text": "seven",
+              "encrypted": false
+            },
+            {
+              "text": "eight",
+              "encrypted": false
+            },
+            {
+              "text": "nine",
+              "encrypted": false
+            },
+            {
+              "text": "ten",
+              "encrypted": false
+            },
+            {
+              "text": "6",
+              "encrypted": false
+            },
+            {
+              "text": "7",
+              "encrypted": false
+            },
+            {
+              "text": "8",
+              "encrypted": false
+            },
+            {
+              "text": "9",
+              "encrypted": false
+            },
+            {
+              "text": "10",
+              "encrypted": false
+            },
+            {
+              "text": "where",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the pen?",
+              "encrypted": false
+            },
+            {
+              "text": "The pen’s on the book",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the book?",
+              "encrypted": false
+            },
+            {
+              "text": "The book’s on the table",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the pen?",
+              "encrypted": false
+            },
+            {
+              "text": "The pen’s under the table",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the picture?",
+              "encrypted": false
+            },
+            {
+              "text": "The picture’s on the wall",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the light?",
+              "encrypted": false
+            },
+            {
+              "text": "The light’s on the ceiling",
+              "encrypted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": 2,
+      "title": "Lesson 2",
+      "pageCount": 3,
+      "pages": [
+        {
+          "pageNum": 15,
+          "image": "pages/book-01/lesson-02-p015.png",
+          "lineCount": 40,
+          "lines": [
+            {
+              "text": "LESSON 2",
+              "encrypted": false
+            },
+            {
+              "text": "8",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "I am",
+              "encrypted": false
+            },
+            {
+              "text": "I’m",
+              "encrypted": false
+            },
+            {
+              "text": "you are",
+              "encrypted": false
+            },
+            {
+              "text": "you’re",
+              "encrypted": false
+            },
+            {
+              "text": "he is",
+              "encrypted": false
+            },
+            {
+              "text": "he’s",
+              "encrypted": false
+            },
+            {
+              "text": "she is",
+              "encrypted": false
+            },
+            {
+              "text": "she’s",
+              "encrypted": false
+            },
+            {
+              "text": "it is",
+              "encrypted": false
+            },
+            {
+              "text": "it’s",
+              "encrypted": false
+            },
+            {
+              "text": "Am I ...?  ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, you’re ...",
+              "encrypted": false
+            },
+            {
+              "text": "Are you ...?",
+              "encrypted": false
+            },
+            {
+              "text": "Yes, I’m ...",
+              "encrypted": false
+            },
+            {
+              "text": "Is he Mr Brown?  ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, he’s Mr Brown",
+              "encrypted": false
+            },
+            {
+              "text": "Is she Mrs Brown? ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, she’s Mrs Brown",
+              "encrypted": false
+            },
+            {
+              "text": "I am not",
+              "encrypted": false
+            },
+            {
+              "text": "I’m not",
+              "encrypted": false
+            },
+            {
+              "text": "9",
+              "encrypted": false
+            },
+            {
+              "text": "you are not",
+              "encrypted": false
+            },
+            {
+              "text": "you aren’t",
+              "encrypted": false
+            },
+            {
+              "text": "he is not",
+              "encrypted": false
+            },
+            {
+              "text": "he isn’t",
+              "encrypted": false
+            },
+            {
+              "text": "she is not",
+              "encrypted": false
+            },
+            {
+              "text": "she isn’t",
+              "encrypted": false
+            },
+            {
+              "text": "it is not",
+              "encrypted": false
+            },
+            {
+              "text": "it isn’t",
+              "encrypted": false
+            },
+            {
+              "text": "Am I Mrs Brown?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t Mrs Brown; you’re ...",
+              "encrypted": false
+            },
+            {
+              "text": "Are you Mr Brown?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, I’m not Mr Brown; I’m ...",
+              "encrypted": false
+            },
+            {
+              "text": "Is he Mr Smith?  ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, he isn’t Mr Smith; he’s Mr Brown",
+              "encrypted": false
+            },
+            {
+              "text": "Is she Mr Brown?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, she isn’t Mr Brown; she’s Mrs Brown",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 16,
+          "image": "pages/book-01/lesson-02-p016.png",
+          "lineCount": 61,
+          "lines": [
+            {
+              "text": "in front of",
+              "encrypted": false
+            },
+            {
+              "text": "behind",
+              "encrypted": false
+            },
+            {
+              "text": "me",
+              "encrypted": false
+            },
+            {
+              "text": "you",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the table?",
+              "encrypted": false
+            },
+            {
+              "text": "The table’s in front of me",
+              "encrypted": false
+            },
+            {
+              "text": "Is the wall in front of you? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the wall isn’t in front of",
+              "encrypted": false
+            },
+            {
+              "text": "10",
+              "encrypted": false
+            },
+            {
+              "text": "me; it’s behind me",
+              "encrypted": false
+            },
+            {
+              "text": "Is the table behind me?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the table isn’t behind you;",
+              "encrypted": false
+            },
+            {
+              "text": "it’s in front of you",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "him",
+              "encrypted": false
+            },
+            {
+              "text": "her",
+              "encrypted": false
+            },
+            {
+              "text": "house",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the house?",
+              "encrypted": false
+            },
+            {
+              "text": "The house is behind him",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the house?",
+              "encrypted": false
+            },
+            {
+              "text": "The house is behind her",
+              "encrypted": false
+            },
+            {
+              "text": "Are you behind her?",
+              "encrypted": false
+            },
+            {
+              "text": "No, I’m not behind her; I’m in front of her",
+              "encrypted": false
+            },
+            {
+              "text": "11",
+              "encrypted": false
+            },
+            {
+              "text": "Am I in front of him? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t in front of him; you’re",
+              "encrypted": false
+            },
+            {
+              "text": "behind him",
+              "encrypted": false
+            },
+            {
+              "text": "standing",
+              "encrypted": false
+            },
+            {
+              "text": "sitting",
+              "encrypted": false
+            },
+            {
+              "text": "Are you standing on the ﬂoor?",
+              "encrypted": false
+            },
+            {
+              "text": "No, I’m not standing on the ﬂoor;",
+              "encrypted": false
+            },
+            {
+              "text": "I’m sitting on the chair",
+              "encrypted": false
+            },
+            {
+              "text": "Am I sitting on the chair?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t sitting on the chair;",
+              "encrypted": false
+            },
+            {
+              "text": "you’re standing on the ﬂoor",
+              "encrypted": false
+            },
+            {
+              "text": "Are you standing in front of me?",
+              "encrypted": false
+            },
+            {
+              "text": "No, I’m not standing in front of you;",
+              "encrypted": false
+            },
+            {
+              "text": "I’m sitting in front of you",
+              "encrypted": false
+            },
+            {
+              "text": "taking from",
+              "encrypted": false
+            },
+            {
+              "text": "putting on",
+              "encrypted": false
+            },
+            {
+              "text": "Am I putting the book on the ʞoor?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t putting",
+              "encrypted": false
+            },
+            {
+              "text": "the book on the ﬂoor; you’re",
+              "encrypted": false
+            },
+            {
+              "text": "taking the book from the table",
+              "encrypted": false
+            },
+            {
+              "text": "Am I taking the pen from the table?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t taking the",
+              "encrypted": false
+            },
+            {
+              "text": "pen from the table; you’re",
+              "encrypted": false
+            },
+            {
+              "text": "putting the book on the table",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 17,
+          "image": "pages/book-01/lesson-02-p017.png",
+          "lineCount": 40,
+          "lines": [
+            {
+              "text": "12",
+              "encrypted": false
+            },
+            {
+              "text": "opening",
+              "encrypted": false
+            },
+            {
+              "text": "closing",
+              "encrypted": false
+            },
+            {
+              "text": "Am I closing the door?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t closing the",
+              "encrypted": false
+            },
+            {
+              "text": "door; you’re opening the book",
+              "encrypted": false
+            },
+            {
+              "text": "Am I opening the window? ? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t opening the window;",
+              "encrypted": false
+            },
+            {
+              "text": "you’re closing the book",
+              "encrypted": false
+            },
+            {
+              "text": "doing",
+              "encrypted": false
+            },
+            {
+              "text": "what am I doing?",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re taking the book from the table",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re opening the book",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re closing the book",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re putting the book on the table",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "which",
+              "encrypted": false
+            },
+            {
+              "text": "13",
+              "encrypted": false
+            },
+            {
+              "text": "Which pencil’s black?",
+              "encrypted": false
+            },
+            {
+              "text": "This pencil’s black",
+              "encrypted": false
+            },
+            {
+              "text": "Which pencil's white? ",
+              "encrypted": true
+            },
+            {
+              "text": "This pencil’s white",
+              "encrypted": false
+            },
+            {
+              "text": "Which pencil’s green?",
+              "encrypted": false
+            },
+            {
+              "text": "This pencil’s green",
+              "encrypted": false
+            },
+            {
+              "text": "Which pencil's brown? ",
+              "encrypted": true
+            },
+            {
+              "text": "This pencil’s brown",
+              "encrypted": false
+            },
+            {
+              "text": "open",
+              "encrypted": false
+            },
+            {
+              "text": "closed",
+              "encrypted": false
+            },
+            {
+              "text": "Which book’s open?",
+              "encrypted": false
+            },
+            {
+              "text": "This book’s open",
+              "encrypted": false
+            },
+            {
+              "text": "Which book’s closed?",
+              "encrypted": false
+            },
+            {
+              "text": "This book’s closed",
+              "encrypted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": 3,
+      "title": "Lesson 3",
+      "pageCount": 4,
+      "pages": [
+        {
+          "pageNum": 18,
+          "image": "pages/book-01/lesson-03-p018.png",
+          "lineCount": 40,
+          "lines": [
+            {
+              "text": "LESSON 3",
+              "encrypted": false
+            },
+            {
+              "text": "14",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "this",
+              "encrypted": false
+            },
+            {
+              "text": "that",
+              "encrypted": false
+            },
+            {
+              "text": "chart",
+              "encrypted": false
+            },
+            {
+              "text": "What colour’s this pencil?",
+              "encrypted": false
+            },
+            {
+              "text": "This pencil’s black",
+              "encrypted": false
+            },
+            {
+              "text": "What colour’s that pencil?",
+              "encrypted": false
+            },
+            {
+              "text": "That pencil’s white",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s this pencil?",
+              "encrypted": false
+            },
+            {
+              "text": "This pencil’s on the Chart",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s that pencil?",
+              "encrypted": false
+            },
+            {
+              "text": "That pencil’s on the wall",
+              "encrypted": false
+            },
+            {
+              "text": "eleven",
+              "encrypted": false
+            },
+            {
+              "text": "twelve",
+              "encrypted": false
+            },
+            {
+              "text": "thirteen",
+              "encrypted": false
+            },
+            {
+              "text": "fourteen",
+              "encrypted": false
+            },
+            {
+              "text": "ﬁfteen",
+              "encrypted": false
+            },
+            {
+              "text": "11",
+              "encrypted": false
+            },
+            {
+              "text": "12",
+              "encrypted": false
+            },
+            {
+              "text": "13",
+              "encrypted": false
+            },
+            {
+              "text": "14",
+              "encrypted": false
+            },
+            {
+              "text": "15",
+              "encrypted": false
+            },
+            {
+              "text": "plural",
+              "encrypted": false
+            },
+            {
+              "text": "of",
+              "encrypted": false
+            },
+            {
+              "text": "etc.",
+              "encrypted": false
+            },
+            {
+              "text": "15",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the plural of “book“?",
+              "encrypted": false
+            },
+            {
+              "text": "The plural of “book” is “books”",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the plural of “clock“?",
+              "encrypted": false
+            },
+            {
+              "text": "The plural of “clock” is “clocks”",
+              "encrypted": false
+            },
+            {
+              "text": "What's the plural of \"wall\"?  ",
+              "encrypted": true
+            },
+            {
+              "text": "The plural of “wall” is “walls”",
+              "encrypted": false
+            },
+            {
+              "text": "we are",
+              "encrypted": false
+            },
+            {
+              "text": "we’re",
+              "encrypted": false
+            },
+            {
+              "text": "Are we sitting",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, we’re sitting",
+              "encrypted": false
+            },
+            {
+              "text": "Where are we sitting?  ",
+              "encrypted": true
+            },
+            {
+              "text": "We’re sitting on the chairs",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 19,
+          "image": "pages/book-01/lesson-03-p019.png",
+          "lineCount": 46,
+          "lines": [
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "they are",
+              "encrypted": false
+            },
+            {
+              "text": "they’re",
+              "encrypted": false
+            },
+            {
+              "text": "Are they standing?",
+              "encrypted": false
+            },
+            {
+              "text": "Yes, they’re standing",
+              "encrypted": false
+            },
+            {
+              "text": "Where are they standing?",
+              "encrypted": false
+            },
+            {
+              "text": "They’re standing in front",
+              "encrypted": false
+            },
+            {
+              "text": "of the house",
+              "encrypted": false
+            },
+            {
+              "text": "we are not",
+              "encrypted": false
+            },
+            {
+              "text": "we aren’t",
+              "encrypted": false
+            },
+            {
+              "text": "Are we standing? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, we aren’t standing; we’re sitting",
+              "encrypted": false
+            },
+            {
+              "text": "Are we sitting on the ʞoor? ? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, we aren’t sitting on the ﬂoor;",
+              "encrypted": false
+            },
+            {
+              "text": "we’re sitting on the chairs",
+              "encrypted": false
+            },
+            {
+              "text": "they are not",
+              "encrypted": false
+            },
+            {
+              "text": "they aren’t",
+              "encrypted": false
+            },
+            {
+              "text": "16",
+              "encrypted": false
+            },
+            {
+              "text": "Are they sitting?",
+              "encrypted": false
+            },
+            {
+              "text": "No, they aren’t sitting; they’re standing",
+              "encrypted": false
+            },
+            {
+              "text": "Are they standing behind the house?",
+              "encrypted": false
+            },
+            {
+              "text": "No, they aren’t standing",
+              "encrypted": false
+            },
+            {
+              "text": "behind the house; they’re",
+              "encrypted": false
+            },
+            {
+              "text": "standing in front of the house",
+              "encrypted": false
+            },
+            {
+              "text": "red",
+              "encrypted": false
+            },
+            {
+              "text": "blue",
+              "encrypted": false
+            },
+            {
+              "text": "yellow",
+              "encrypted": false
+            },
+            {
+              "text": "grey",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "What colour’s this pencil?",
+              "encrypted": false
+            },
+            {
+              "text": "This pencil’s red, blue etc.",
+              "encrypted": false
+            },
+            {
+              "text": "these",
+              "encrypted": false
+            },
+            {
+              "text": "those",
+              "encrypted": false
+            },
+            {
+              "text": "and",
+              "encrypted": false
+            },
+            {
+              "text": "What colour’s this pencil?",
+              "encrypted": false
+            },
+            {
+              "text": "This pencil’s black",
+              "encrypted": false
+            },
+            {
+              "text": "What colour’s that pencil?",
+              "encrypted": false
+            },
+            {
+              "text": "That pencil’s white",
+              "encrypted": false
+            },
+            {
+              "text": "What colour are these pencils?",
+              "encrypted": false
+            },
+            {
+              "text": "These pencils are black and green",
+              "encrypted": false
+            },
+            {
+              "text": "17",
+              "encrypted": false
+            },
+            {
+              "text": "What colour are those pencils?",
+              "encrypted": false
+            },
+            {
+              "text": "Those pencils are white and brown",
+              "encrypted": false
+            },
+            {
+              "text": "Where are these pencils?",
+              "encrypted": false
+            },
+            {
+              "text": "These pencils are on the Chart",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 20,
+          "image": "pages/book-01/lesson-03-p020.png",
+          "lineCount": 47,
+          "lines": [
+            {
+              "text": "Where are those pencils?",
+              "encrypted": false
+            },
+            {
+              "text": "Those pencils are on the wall",
+              "encrypted": false
+            },
+            {
+              "text": "What colour are these chairs?",
+              "encrypted": false
+            },
+            {
+              "text": "These chairs are ...",
+              "encrypted": false
+            },
+            {
+              "text": "What colour are those chairs?",
+              "encrypted": false
+            },
+            {
+              "text": "Those chairs are ...",
+              "encrypted": false
+            },
+            {
+              "text": "men",
+              "encrypted": false
+            },
+            {
+              "text": "women",
+              "encrypted": false
+            },
+            {
+              "text": "say",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the plural of “man“?",
+              "encrypted": false
+            },
+            {
+              "text": "The plural of “man“ is “men“",
+              "encrypted": false
+            },
+            {
+              "text": "What's the plural of \"woman\"? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001The plural of “woman“ is “women“",
+              "encrypted": false
+            },
+            {
+              "text": "sixteen",
+              "encrypted": false
+            },
+            {
+              "text": "seventeen",
+              "encrypted": false
+            },
+            {
+              "text": "eighteen",
+              "encrypted": false
+            },
+            {
+              "text": "nineteen",
+              "encrypted": false
+            },
+            {
+              "text": "twenty",
+              "encrypted": false
+            },
+            {
+              "text": "16",
+              "encrypted": false
+            },
+            {
+              "text": "17",
+              "encrypted": false
+            },
+            {
+              "text": "18",
+              "encrypted": false
+            },
+            {
+              "text": "19",
+              "encrypted": false
+            },
+            {
+              "text": "20",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "clothes",
+              "encrypted": false
+            },
+            {
+              "text": "What are these?",
+              "encrypted": false
+            },
+            {
+              "text": "These are clothes",
+              "encrypted": false
+            },
+            {
+              "text": "18",
+              "encrypted": false
+            },
+            {
+              "text": "shoe",
+              "encrypted": false
+            },
+            {
+              "text": "boot",
+              "encrypted": false
+            },
+            {
+              "text": "sock",
+              "encrypted": false
+            },
+            {
+              "text": "trousers",
+              "encrypted": false
+            },
+            {
+              "text": "jacket",
+              "encrypted": false
+            },
+            {
+              "text": "suit",
+              "encrypted": false
+            },
+            {
+              "text": "shirt",
+              "encrypted": false
+            },
+            {
+              "text": "tie",
+              "encrypted": false
+            },
+            {
+              "text": "hat",
+              "encrypted": false
+            },
+            {
+              "text": "bag",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a shoe, boot etc.",
+              "encrypted": false
+            },
+            {
+              "text": "What are these?",
+              "encrypted": false
+            },
+            {
+              "text": "These are trousers",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 2",
+              "encrypted": false
+            },
+            {
+              "text": "alphabet",
+              "encrypted": false
+            },
+            {
+              "text": "letter",
+              "encrypted": false
+            },
+            {
+              "text": "What letter’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "A, B, etc.",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 21,
+          "image": "pages/book-01/lesson-03-p021.png",
+          "lineCount": 25,
+          "lines": [
+            {
+              "text": "vowel",
+              "encrypted": false
+            },
+            {
+              "text": "consonant",
+              "encrypted": false
+            },
+            {
+              "text": "These are the ﬁve vowels: A, E, I, O, U.",
+              "encrypted": false
+            },
+            {
+              "text": "What are these?",
+              "encrypted": false
+            },
+            {
+              "text": "These are the ﬁve vowels",
+              "encrypted": false
+            },
+            {
+              "text": "What are the ʝve vowels?  ",
+              "encrypted": true
+            },
+            {
+              "text": "The ﬁve vowels are A, E, I ,O, U",
+              "encrypted": false
+            },
+            {
+              "text": "The letters B, C, D etc. are consonants.",
+              "encrypted": false
+            },
+            {
+              "text": "19",
+              "encrypted": false
+            },
+            {
+              "text": "Is the letter B a vowel?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the letter B isn’t a vowel;",
+              "encrypted": false
+            },
+            {
+              "text": "it’s a consonant",
+              "encrypted": false
+            },
+            {
+              "text": "before",
+              "encrypted": false
+            },
+            {
+              "text": "after",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter’s before E?",
+              "encrypted": false
+            },
+            {
+              "text": "D’s before E",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter's after I? ",
+              "encrypted": true
+            },
+            {
+              "text": "J’s after I",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter's before Z? ",
+              "encrypted": true
+            },
+            {
+              "text": "Y’s before Z",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter's after G? ",
+              "encrypted": true
+            },
+            {
+              "text": "H’s after G",
+              "encrypted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": 4,
+      "title": "Lesson 4",
+      "pageCount": 3,
+      "pages": [
+        {
+          "pageNum": 22,
+          "image": "pages/book-01/lesson-04-p022.png",
+          "lineCount": 42,
+          "lines": [
+            {
+              "text": "LESSON 4",
+              "encrypted": false
+            },
+            {
+              "text": "between",
+              "encrypted": false
+            },
+            {
+              "text": "20",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter's between D and F? ",
+              "encrypted": true
+            },
+            {
+              "text": "E’s between D and F",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter's between H and J? ",
+              "encrypted": true
+            },
+            {
+              "text": "I’s between H and J",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter's between Q and S?  ",
+              "encrypted": true
+            },
+            {
+              "text": "R’s between Q and S",
+              "encrypted": false
+            },
+            {
+              "text": "us",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the table?",
+              "encrypted": false
+            },
+            {
+              "text": "The table’s in front of us",
+              "encrypted": false
+            },
+            {
+              "text": "Are the walls in front of us? ? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, the walls aren’t in front of us;",
+              "encrypted": false
+            },
+            {
+              "text": "they’re behind us",
+              "encrypted": false
+            },
+            {
+              "text": "Is the table behind us? ",
+              "encrypted": true
+            },
+            {
+              "text": "  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the table isn’t behind us;",
+              "encrypted": false
+            },
+            {
+              "text": "it’s in front of us",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "21",
+              "encrypted": false
+            },
+            {
+              "text": "them",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the house?",
+              "encrypted": false
+            },
+            {
+              "text": "The house’s behind them",
+              "encrypted": false
+            },
+            {
+              "text": "Are you behind them?",
+              "encrypted": false
+            },
+            {
+              "text": "No, I’m not behind them;",
+              "encrypted": false
+            },
+            {
+              "text": "I’m in front of them",
+              "encrypted": false
+            },
+            {
+              "text": "Am I in front of them?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t in front of",
+              "encrypted": false
+            },
+            {
+              "text": "them; you’re behind them",
+              "encrypted": false
+            },
+            {
+              "text": "student",
+              "encrypted": false
+            },
+            {
+              "text": "teacher",
+              "encrypted": false
+            },
+            {
+              "text": "Am I a student?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t a student; you’re the teacher",
+              "encrypted": false
+            },
+            {
+              "text": "Are you the teacher?",
+              "encrypted": false
+            },
+            {
+              "text": "No, I’m not the teacher; I’m a student",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 23,
+          "image": "pages/book-01/lesson-04-p023.png",
+          "lineCount": 57,
+          "lines": [
+            {
+              "text": "See Chart 3",
+              "encrypted": false
+            },
+            {
+              "text": "thirty",
+              "encrypted": false
+            },
+            {
+              "text": "forty",
+              "encrypted": false
+            },
+            {
+              "text": "ﬁfty",
+              "encrypted": false
+            },
+            {
+              "text": "sixty",
+              "encrypted": false
+            },
+            {
+              "text": "seventy",
+              "encrypted": false
+            },
+            {
+              "text": "eighty",
+              "encrypted": false
+            },
+            {
+              "text": "30",
+              "encrypted": false
+            },
+            {
+              "text": "40",
+              "encrypted": false
+            },
+            {
+              "text": "50",
+              "encrypted": false
+            },
+            {
+              "text": "60",
+              "encrypted": false
+            },
+            {
+              "text": "70",
+              "encrypted": false
+            },
+            {
+              "text": "80",
+              "encrypted": false
+            },
+            {
+              "text": "ninety",
+              "encrypted": false
+            },
+            {
+              "text": "hundred",
+              "encrypted": false
+            },
+            {
+              "text": "thousand",
+              "encrypted": false
+            },
+            {
+              "text": "million",
+              "encrypted": false
+            },
+            {
+              "text": "number",
+              "encrypted": false
+            },
+            {
+              "text": "90",
+              "encrypted": false
+            },
+            {
+              "text": "100",
+              "encrypted": false
+            },
+            {
+              "text": "1,000",
+              "encrypted": false
+            },
+            {
+              "text": "1,000,000",
+              "encrypted": false
+            },
+            {
+              "text": "22",
+              "encrypted": false
+            },
+            {
+              "text": "What number’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "30, 40 etc.",
+              "encrypted": false
+            },
+            {
+              "text": "What numbers are these?",
+              "encrypted": false
+            },
+            {
+              "text": "30–13; 40–14 etc.",
+              "encrypted": false
+            },
+            {
+              "text": "What number’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "313",
+              "encrypted": false
+            },
+            {
+              "text": "1,815",
+              "encrypted": false
+            },
+            {
+              "text": "1,950,630",
+              "encrypted": false
+            },
+            {
+              "text": "plus",
+              "encrypted": false
+            },
+            {
+              "text": "equals",
+              "encrypted": false
+            },
+            {
+              "text": "2 + 2 = 4",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s 2 + 2 = 4",
+              "encrypted": false
+            },
+            {
+              "text": "how much",
+              "encrypted": false
+            },
+            {
+              "text": "How much is 13 plus 5? ",
+              "encrypted": true
+            },
+            {
+              "text": "13 plus 5 equals 18",
+              "encrypted": false
+            },
+            {
+              "text": "How much is",
+              "encrypted": true
+            },
+            {
+              "text": "18 + 40",
+              "encrypted": false
+            },
+            {
+              "text": "5 + 10",
+              "encrypted": false
+            },
+            {
+              "text": "60 + 19",
+              "encrypted": false
+            },
+            {
+              "text": "6 + 3",
+              "encrypted": false
+            },
+            {
+              "text": "16 + 30",
+              "encrypted": false
+            },
+            {
+              "text": "20 + 15",
+              "encrypted": false
+            },
+            {
+              "text": "90 + 15",
+              "encrypted": false
+            },
+            {
+              "text": "10 + 30",
+              "encrypted": false
+            },
+            {
+              "text": "23",
+              "encrypted": false
+            },
+            {
+              "text": "there is",
+              "encrypted": false
+            },
+            {
+              "text": "there’s",
+              "encrypted": false
+            },
+            {
+              "text": "Is there a pen on this book?  ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, there’s a pen on this book",
+              "encrypted": false
+            },
+            {
+              "text": "Is there a light on the ceiling? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001Yes, there’s a light on the ceiling",
+              "encrypted": false
+            },
+            {
+              "text": "Is there a bag in this room?  ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, there’s a bag in this room",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 24,
+          "image": "pages/book-01/lesson-04-p024.png",
+          "lineCount": 55,
+          "lines": [
+            {
+              "text": "there are",
+              "encrypted": false
+            },
+            {
+              "text": "now",
+              "encrypted": false
+            },
+            {
+              "text": "Is there a pen on the book",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, there’s a pen on the book",
+              "encrypted": false
+            },
+            {
+              "text": "Are there two pens on the book now?  ? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, there are two pens",
+              "encrypted": false
+            },
+            {
+              "text": "on the book now",
+              "encrypted": false
+            },
+            {
+              "text": "24",
+              "encrypted": false
+            },
+            {
+              "text": "Are there (12",
+              "encrypted": true
+            },
+            {
+              "text": " chairs in this room? ?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, there are (12)",
+              "encrypted": false
+            },
+            {
+              "text": "chairs in this room",
+              "encrypted": false
+            },
+            {
+              "text": "Are there (2",
+              "encrypted": true
+            },
+            {
+              "text": " pictures on these walls?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, there are (2)",
+              "encrypted": false
+            },
+            {
+              "text": "pictures on these walls",
+              "encrypted": false
+            },
+            {
+              "text": "there is not",
+              "encrypted": false
+            },
+            {
+              "text": "there isn’t",
+              "encrypted": false
+            },
+            {
+              "text": "Is there a pen on the book?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, there isn’t a pen on the book",
+              "encrypted": false
+            },
+            {
+              "text": "Is there a book on the ʞoor? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, there isn’t a book on the ﬂoor",
+              "encrypted": false
+            },
+            {
+              "text": "Is there a clock on the table? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, there isn’t a clock on the table",
+              "encrypted": false
+            },
+            {
+              "text": "there are not",
+              "encrypted": false
+            },
+            {
+              "text": "there aren’t",
+              "encrypted": false
+            },
+            {
+              "text": "Are there three clocks on that wall? ",
+              "encrypted": true
+            },
+            {
+              "text": "  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, there aren’t",
+              "encrypted": false
+            },
+            {
+              "text": "three clocks on that wall;",
+              "encrypted": false
+            },
+            {
+              "text": "there’s one clock on that wall",
+              "encrypted": false
+            },
+            {
+              "text": "Are there a hundred pictures in this room?",
+              "encrypted": false
+            },
+            {
+              "text": "No, there aren’t a",
+              "encrypted": false
+            },
+            {
+              "text": "hundred pictures in this room;",
+              "encrypted": false
+            },
+            {
+              "text": "there are ... pictures in this room",
+              "encrypted": false
+            },
+            {
+              "text": "Are there a thousand chairs in this room?",
+              "encrypted": false
+            },
+            {
+              "text": "No, there aren’t a",
+              "encrypted": false
+            },
+            {
+              "text": "thousand chairs in this room;",
+              "encrypted": false
+            },
+            {
+              "text": "there are ... chairs in this room",
+              "encrypted": false
+            },
+            {
+              "text": "high",
+              "encrypted": false
+            },
+            {
+              "text": "low",
+              "encrypted": false
+            },
+            {
+              "text": "but",
+              "encrypted": false
+            },
+            {
+              "text": "Is the chair high? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the chair isn’t high; it’s low",
+              "encrypted": false
+            },
+            {
+              "text": "Is the wall low? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the wall isn’t low; it’s high",
+              "encrypted": false
+            },
+            {
+              "text": "Is the table high? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the table isn’t high; it’s low",
+              "encrypted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": 5,
+      "title": "Lesson 5",
+      "pageCount": 3,
+      "pages": [
+        {
+          "pageNum": 25,
+          "image": "pages/book-01/lesson-05-p025.png",
+          "lineCount": 35,
+          "lines": [
+            {
+              "text": "LESSON 5",
+              "encrypted": false
+            },
+            {
+              "text": "imperative",
+              "encrypted": false
+            },
+            {
+              "text": "take!",
+              "encrypted": false
+            },
+            {
+              "text": "put!",
+              "encrypted": false
+            },
+            {
+              "text": "open!",
+              "encrypted": false
+            },
+            {
+              "text": "25",
+              "encrypted": false
+            },
+            {
+              "text": "close!",
+              "encrypted": false
+            },
+            {
+              "text": "please",
+              "encrypted": false
+            },
+            {
+              "text": "The imperative is “take!”, “put!”, “open!”, “close!” etc.",
+              "encrypted": false
+            },
+            {
+              "text": "Take the book, please.",
+              "encrypted": false
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s taking the book",
+              "encrypted": false
+            },
+            {
+              "text": "Open the book, please.",
+              "encrypted": false
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s opening the book",
+              "encrypted": false
+            },
+            {
+              "text": "Close the book, please.",
+              "encrypted": false
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s closing the book",
+              "encrypted": false
+            },
+            {
+              "text": "Put the book on the table, please.",
+              "encrypted": false
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s putting the book on the table",
+              "encrypted": false
+            },
+            {
+              "text": "26",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "here",
+              "encrypted": false
+            },
+            {
+              "text": "there",
+              "encrypted": false
+            },
+            {
+              "text": "Where’s the black pencil?",
+              "encrypted": false
+            },
+            {
+              "text": "The black pencil’s here in front of me",
+              "encrypted": false
+            },
+            {
+              "text": "Where's the white pencil? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001The white pencil’s there on the wall",
+              "encrypted": false
+            },
+            {
+              "text": "Are you sitting there?",
+              "encrypted": false
+            },
+            {
+              "text": "No, I’m not sitting there; I’m sitting here",
+              "encrypted": false
+            },
+            {
+              "text": "Is the white pencil here in front of you?  ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the white",
+              "encrypted": false
+            },
+            {
+              "text": "pencil isn’t here in front",
+              "encrypted": false
+            },
+            {
+              "text": "of me; it’s there on the Chart",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 26,
+          "image": "pages/book-01/lesson-05-p026.png",
+          "lineCount": 60,
+          "lines": [
+            {
+              "text": "capital",
+              "encrypted": false
+            },
+            {
+              "text": "England",
+              "encrypted": false
+            },
+            {
+              "text": "Russia",
+              "encrypted": false
+            },
+            {
+              "text": "Greece",
+              "encrypted": false
+            },
+            {
+              "text": "China",
+              "encrypted": false
+            },
+            {
+              "text": "London",
+              "encrypted": false
+            },
+            {
+              "text": "Moscow",
+              "encrypted": false
+            },
+            {
+              "text": "Athens",
+              "encrypted": false
+            },
+            {
+              "text": "Beĳing",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the capital of England?",
+              "encrypted": false
+            },
+            {
+              "text": "London’s the capital of England",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the capital of Russia?",
+              "encrypted": false
+            },
+            {
+              "text": "Moscow’s the capital of Russia",
+              "encrypted": false
+            },
+            {
+              "text": "27",
+              "encrypted": false
+            },
+            {
+              "text": "What's the capital of Greece? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001Athens’s the capital of Greece",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the capital of China?",
+              "encrypted": false
+            },
+            {
+              "text": "Beĳing’s the capital of China",
+              "encrypted": false
+            },
+            {
+              "text": "reading",
+              "encrypted": false
+            },
+            {
+              "text": "writing",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re reading the book",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re writing in the book",
+              "encrypted": false
+            },
+            {
+              "text": "Am I writing in the book? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, you aren’t writing in the",
+              "encrypted": false
+            },
+            {
+              "text": "book; you’re reading the book",
+              "encrypted": false
+            },
+            {
+              "text": "Am I reading the book?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t reading the",
+              "encrypted": false
+            },
+            {
+              "text": "book; you’re writing in the book",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "coat",
+              "encrypted": false
+            },
+            {
+              "text": "tights",
+              "encrypted": false
+            },
+            {
+              "text": "dress",
+              "encrypted": false
+            },
+            {
+              "text": "skirt",
+              "encrypted": false
+            },
+            {
+              "text": "scarf",
+              "encrypted": false
+            },
+            {
+              "text": "blouse",
+              "encrypted": false
+            },
+            {
+              "text": "pullover",
+              "encrypted": false
+            },
+            {
+              "text": "pocket",
+              "encrypted": false
+            },
+            {
+              "text": "handkerchief",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a coat, dress etc.",
+              "encrypted": false
+            },
+            {
+              "text": "What are these?",
+              "encrypted": false
+            },
+            {
+              "text": "These are tights",
+              "encrypted": false
+            },
+            {
+              "text": "28",
+              "encrypted": false
+            },
+            {
+              "text": "how many?",
+              "encrypted": false
+            },
+            {
+              "text": "How many pictures are there on these walls?  ? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "There are ...",
+              "encrypted": false
+            },
+            {
+              "text": "pictures on these walls",
+              "encrypted": false
+            },
+            {
+              "text": "How many clocks are there in this room?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "There’s one clock in this",
+              "encrypted": false
+            },
+            {
+              "text": "room",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 27,
+          "image": "pages/book-01/lesson-05-p027.png",
+          "lineCount": 19,
+          "lines": [
+            {
+              "text": "How many chairs are there in this room?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "There are ... chairs in",
+              "encrypted": false
+            },
+            {
+              "text": "this room",
+              "encrypted": false
+            },
+            {
+              "text": "How many teachers are there in this room? ",
+              "encrypted": true
+            },
+            {
+              "text": "There’s one teacher in",
+              "encrypted": false
+            },
+            {
+              "text": "this room",
+              "encrypted": false
+            },
+            {
+              "text": "going to",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re going to the door",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re going to the window",
+              "encrypted": false
+            },
+            {
+              "text": "Where am I going? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re going to the wall",
+              "encrypted": false
+            },
+            {
+              "text": "Am I going to the door? ",
+              "encrypted": true
+            },
+            {
+              "text": "  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t going to the door;",
+              "encrypted": false
+            },
+            {
+              "text": "you’re going to the window",
+              "encrypted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": 6,
+      "title": "Lesson 6",
+      "pageCount": 3,
+      "pages": [
+        {
+          "pageNum": 28,
+          "image": "pages/book-01/lesson-06-p028.png",
+          "lineCount": 58,
+          "lines": [
+            {
+              "text": "LESSON 6",
+              "encrypted": false
+            },
+            {
+              "text": "Europe",
+              "encrypted": false
+            },
+            {
+              "text": "Asia",
+              "encrypted": false
+            },
+            {
+              "text": "Italy",
+              "encrypted": false
+            },
+            {
+              "text": "France",
+              "encrypted": false
+            },
+            {
+              "text": "India",
+              "encrypted": false
+            },
+            {
+              "text": "29",
+              "encrypted": false
+            },
+            {
+              "text": "Is Greece in Asia? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, Greece isn’t in Asia; it’s in Europe",
+              "encrypted": false
+            },
+            {
+              "text": "Is India in Europe? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, India isn’t in Europe; it’s in Asia",
+              "encrypted": false
+            },
+            {
+              "text": "Are France and Italy in Asia? ?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, France and Italy aren’t in Asia;",
+              "encrypted": false
+            },
+            {
+              "text": "they’re in Europe",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 2",
+              "encrypted": false
+            },
+            {
+              "text": "ﬁrst",
+              "encrypted": false
+            },
+            {
+              "text": "second",
+              "encrypted": false
+            },
+            {
+              "text": "third",
+              "encrypted": false
+            },
+            {
+              "text": "fourth",
+              "encrypted": false
+            },
+            {
+              "text": "1st",
+              "encrypted": false
+            },
+            {
+              "text": "2nd",
+              "encrypted": false
+            },
+            {
+              "text": "3rd",
+              "encrypted": false
+            },
+            {
+              "text": "4th",
+              "encrypted": false
+            },
+            {
+              "text": "ﬁfth",
+              "encrypted": false
+            },
+            {
+              "text": "sixth",
+              "encrypted": false
+            },
+            {
+              "text": "twelfth",
+              "encrypted": false
+            },
+            {
+              "text": "twentieth",
+              "encrypted": false
+            },
+            {
+              "text": "5th",
+              "encrypted": false
+            },
+            {
+              "text": "6th",
+              "encrypted": false
+            },
+            {
+              "text": "12th",
+              "encrypted": false
+            },
+            {
+              "text": "20th",
+              "encrypted": false
+            },
+            {
+              "text": "cardinal",
+              "encrypted": false
+            },
+            {
+              "text": "ordinal",
+              "encrypted": false
+            },
+            {
+              "text": "30",
+              "encrypted": false
+            },
+            {
+              "text": "What are the cardinal numbers?",
+              "encrypted": false
+            },
+            {
+              "text": "The cardinal numbers",
+              "encrypted": false
+            },
+            {
+              "text": "are 1, 2, 3, etc.",
+              "encrypted": false
+            },
+            {
+              "text": "What are the ordinal numbers?",
+              "encrypted": false
+            },
+            {
+              "text": "The ordinal numbers",
+              "encrypted": false
+            },
+            {
+              "text": "are 1st, 2nd, 3rd, etc.",
+              "encrypted": false
+            },
+            {
+              "text": "Which is the ﬁrst letter of the alphabet?",
+              "encrypted": false
+            },
+            {
+              "text": "A’s the ﬁrst letter of the",
+              "encrypted": false
+            },
+            {
+              "text": "alphabet",
+              "encrypted": false
+            },
+            {
+              "text": "Which is the third letter of the alphabet?",
+              "encrypted": false
+            },
+            {
+              "text": "C’s the third letter of",
+              "encrypted": false
+            },
+            {
+              "text": "the alphabet",
+              "encrypted": false
+            },
+            {
+              "text": "Which is the ﬁfth letter of the alphabet?",
+              "encrypted": false
+            },
+            {
+              "text": "E’s the ﬁfth letter",
+              "encrypted": false
+            },
+            {
+              "text": "of the alphabet",
+              "encrypted": false
+            },
+            {
+              "text": "Which is the twelfth letter of the alphabet? ",
+              "encrypted": true
+            },
+            {
+              "text": "  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "L’s the twelfth",
+              "encrypted": false
+            },
+            {
+              "text": "letter of the alphabet",
+              "encrypted": false
+            },
+            {
+              "text": "Which is the thirteenth letter of the alphabet?",
+              "encrypted": false
+            },
+            {
+              "text": "M’s the thirteenth",
+              "encrypted": false
+            },
+            {
+              "text": "letter of the alphabet",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 29,
+          "image": "pages/book-01/lesson-06-p029.png",
+          "lineCount": 55,
+          "lines": [
+            {
+              "text": "Which is the twentieth letter of the alphabet?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001T’s the twentieth",
+              "encrypted": false
+            },
+            {
+              "text": "letter of the alphabet",
+              "encrypted": false
+            },
+            {
+              "text": "Which is the twenty-ʝrst letter? ",
+              "encrypted": true
+            },
+            {
+              "text": "U’s the twenty-ﬁrst letter",
+              "encrypted": false
+            },
+            {
+              "text": "Which is the twenty-third letter? ",
+              "encrypted": true
+            },
+            {
+              "text": "W’s the twenty-third letter",
+              "encrypted": false
+            },
+            {
+              "text": "Which is the twenty-ʝfth letter? ",
+              "encrypted": true
+            },
+            {
+              "text": "Y’s the twenty-ﬁfth letter",
+              "encrypted": false
+            },
+            {
+              "text": "31",
+              "encrypted": false
+            },
+            {
+              "text": "last",
+              "encrypted": false
+            },
+            {
+              "text": "Which’s the last letter of the alphabet?",
+              "encrypted": false
+            },
+            {
+              "text": "Z’s the last letter",
+              "encrypted": false
+            },
+            {
+              "text": "of the alphabet",
+              "encrypted": false
+            },
+            {
+              "text": "Is A the last letter of the alphabet?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, A isn’t the last",
+              "encrypted": false
+            },
+            {
+              "text": "letter of the alphabet; it’s",
+              "encrypted": false
+            },
+            {
+              "text": "the ﬁrst letter of the alphabet",
+              "encrypted": false
+            },
+            {
+              "text": "give",
+              "encrypted": false
+            },
+            {
+              "text": "Take the book, please.",
+              "encrypted": false
+            },
+            {
+              "text": "Give me the book, please.",
+              "encrypted": true
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s giving you the book",
+              "encrypted": false
+            },
+            {
+              "text": "Take the book, please.",
+              "encrypted": false
+            },
+            {
+              "text": "Give him/her the book, please.",
+              "encrypted": true
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s giving him/her the book",
+              "encrypted": false
+            },
+            {
+              "text": "32",
+              "encrypted": false
+            },
+            {
+              "text": "French",
+              "encrypted": false
+            },
+            {
+              "text": "German",
+              "encrypted": false
+            },
+            {
+              "text": "Italian",
+              "encrypted": false
+            },
+            {
+              "text": "English",
+              "encrypted": false
+            },
+            {
+              "text": "Are you (French",
+              "encrypted": true
+            },
+            {
+              "text": " or (German",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, I’m not (French) or",
+              "encrypted": false
+            },
+            {
+              "text": "(German); I’m ...",
+              "encrypted": false
+            },
+            {
+              "text": "Am I (Italian",
+              "encrypted": true
+            },
+            {
+              "text": " or (French",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t (Italian) or",
+              "encrypted": false
+            },
+            {
+              "text": "(French); you’re (English)",
+              "encrypted": false
+            },
+            {
+              "text": "Are the students (German",
+              "encrypted": true
+            },
+            {
+              "text": " or (English",
+              "encrypted": true
+            },
+            {
+              "text": "  ",
+              "encrypted": true
+            },
+            {
+              "text": "The students are ...",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 30,
+          "image": "pages/book-01/lesson-06-p030.png",
+          "lineCount": 44,
+          "lines": [
+            {
+              "text": "my",
+              "encrypted": false
+            },
+            {
+              "text": "your",
+              "encrypted": false
+            },
+            {
+              "text": "Is this your book? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t my book; it’s your book",
+              "encrypted": false
+            },
+            {
+              "text": "Is that my dress? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, it isn’t your dress; it’s my dress",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "his",
+              "encrypted": false
+            },
+            {
+              "text": "her",
+              "encrypted": false
+            },
+            {
+              "text": "Are these his boots?",
+              "encrypted": false
+            },
+            {
+              "text": "No, they aren’t his boots; they’re her boots",
+              "encrypted": false
+            },
+            {
+              "text": "33",
+              "encrypted": false
+            },
+            {
+              "text": "Are these her shoes?",
+              "encrypted": false
+            },
+            {
+              "text": "No, they aren’t her shoes; they’re his shoes",
+              "encrypted": false
+            },
+            {
+              "text": "Is this his bag? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, it isn’t his bag; it’s her bag",
+              "encrypted": false
+            },
+            {
+              "text": "Is this her suit? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t her suit; it’s his suit",
+              "encrypted": false
+            },
+            {
+              "text": "What colour’s his suit?",
+              "encrypted": false
+            },
+            {
+              "text": "His suit’s black",
+              "encrypted": false
+            },
+            {
+              "text": "our",
+              "encrypted": false
+            },
+            {
+              "text": "your",
+              "encrypted": false
+            },
+            {
+              "text": "their",
+              "encrypted": false
+            },
+            {
+              "text": "Are these our shoes?",
+              "encrypted": false
+            },
+            {
+              "text": "No, they aren’t our shoes;",
+              "encrypted": false
+            },
+            {
+              "text": "they’re their shoes",
+              "encrypted": false
+            },
+            {
+              "text": "What colour are their shoes?",
+              "encrypted": false
+            },
+            {
+              "text": "Their shoes are black",
+              "encrypted": false
+            },
+            {
+              "text": "Are these their books?",
+              "encrypted": false
+            },
+            {
+              "text": "No, these aren’t their books;",
+              "encrypted": false
+            },
+            {
+              "text": "they’re our books",
+              "encrypted": false
+            },
+            {
+              "text": "Where are our books?",
+              "encrypted": false
+            },
+            {
+              "text": "Our books are on the table(s)",
+              "encrypted": false
+            },
+            {
+              "text": "all",
+              "encrypted": false
+            },
+            {
+              "text": "34",
+              "encrypted": false
+            },
+            {
+              "text": "Are all the walls in this room white (or green or blue etc.",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, all",
+              "encrypted": false
+            },
+            {
+              "text": "the walls in this room are white",
+              "encrypted": false
+            },
+            {
+              "text": "Are all the books in this room English books?",
+              "encrypted": false
+            },
+            {
+              "text": "Yes, all the books in this",
+              "encrypted": false
+            },
+            {
+              "text": "room are English books",
+              "encrypted": false
+            },
+            {
+              "text": "Are all the students sitting?",
+              "encrypted": false
+            },
+            {
+              "text": "Yes, all the students are sitting",
+              "encrypted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": 7,
+      "title": "Lesson 7",
+      "pageCount": 4,
+      "pages": [
+        {
+          "pageNum": 31,
+          "image": "pages/book-01/lesson-07-p031.png",
+          "lineCount": 39,
+          "lines": [
+            {
+              "text": "LESSON 7",
+              "encrypted": false
+            },
+            {
+              "text": "person",
+              "encrypted": false
+            },
+            {
+              "text": "people",
+              "encrypted": false
+            },
+            {
+              "text": "35",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the plural of “person”?",
+              "encrypted": false
+            },
+            {
+              "text": "The plural of “person” is “people”",
+              "encrypted": false
+            },
+            {
+              "text": "How many people are there in this room? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "There are ... people in",
+              "encrypted": false
+            },
+            {
+              "text": "this room",
+              "encrypted": false
+            },
+            {
+              "text": "How many people are there in this town? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001There are ... people in",
+              "encrypted": false
+            },
+            {
+              "text": "this town",
+              "encrypted": false
+            },
+            {
+              "text": "coming from",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001You’re coming from the door",
+              "encrypted": false
+            },
+            {
+              "text": "Am I coming from the window? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t coming from the",
+              "encrypted": false
+            },
+            {
+              "text": "window; you’re going to the window",
+              "encrypted": false
+            },
+            {
+              "text": "Am I going to the window? ?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t going to the window;",
+              "encrypted": false
+            },
+            {
+              "text": "36",
+              "encrypted": false
+            },
+            {
+              "text": "you’re coming from the window",
+              "encrypted": false
+            },
+            {
+              "text": "touch",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re touching the wall",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re touching the picture",
+              "encrypted": false
+            },
+            {
+              "text": "Touch your tie (or dress, shoe etc.",
+              "encrypted": true
+            },
+            {
+              "text": " please. ",
+              "encrypted": true
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s touching his/her ...",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 2",
+              "encrypted": false
+            },
+            {
+              "text": "sentence",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a sentence",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 32,
+          "image": "pages/book-01/lesson-07-p032.png",
+          "lineCount": 52,
+          "lines": [
+            {
+              "text": "word",
+              "encrypted": false
+            },
+            {
+              "text": "verb",
+              "encrypted": false
+            },
+            {
+              "text": "use",
+              "encrypted": false
+            },
+            {
+              "text": "for",
+              "encrypted": false
+            },
+            {
+              "text": "action",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a word",
+              "encrypted": false
+            },
+            {
+              "text": "How many words are there in this sentence? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "There are seven words",
+              "encrypted": false
+            },
+            {
+              "text": "37",
+              "encrypted": false
+            },
+            {
+              "text": "in this sentence",
+              "encrypted": false
+            },
+            {
+              "text": "Which's the ʝrst word of this sentence? ? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001“Verbs“ is the ﬁrst",
+              "encrypted": false
+            },
+            {
+              "text": "word of this sentence",
+              "encrypted": false
+            },
+            {
+              "text": "Which's the third word of this sentence?  ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001“Words“ is the third word of",
+              "encrypted": false
+            },
+            {
+              "text": "this sentence",
+              "encrypted": false
+            },
+            {
+              "text": "Which's the ʝfth word of this sentence? ?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "“Use“ is the ﬁfth",
+              "encrypted": false
+            },
+            {
+              "text": "word of this sentence",
+              "encrypted": false
+            },
+            {
+              "text": "Which's the sixth word?  ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001“For“ is the sixth word of this sentence",
+              "encrypted": false
+            },
+            {
+              "text": "Which's the last word? ",
+              "encrypted": true
+            },
+            {
+              "text": "“Actions“ is the last word of this sentence",
+              "encrypted": false
+            },
+            {
+              "text": "question mark   ?",
+              "encrypted": false
+            },
+            {
+              "text": "full stop        .",
+              "encrypted": false
+            },
+            {
+              "text": "comma                ,",
+              "encrypted": false
+            },
+            {
+              "text": "colon            :",
+              "encrypted": false
+            },
+            {
+              "text": "semi-colon         ;",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a question mark",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a full stop",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a comma",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a colon",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a semi-colon",
+              "encrypted": false
+            },
+            {
+              "text": "umbrella",
+              "encrypted": false
+            },
+            {
+              "text": "38",
+              "encrypted": false
+            },
+            {
+              "text": "What word's this?  ",
+              "encrypted": true
+            },
+            {
+              "text": "It’s the word “umbrella“",
+              "encrypted": false
+            },
+            {
+              "text": "Is there an umbrella on the table?   ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, there isn’t an",
+              "encrypted": false
+            },
+            {
+              "text": "umbrella on the table",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 33,
+          "image": "pages/book-01/lesson-07-p033.png",
+          "lineCount": 44,
+          "lines": [
+            {
+              "text": "pronounce",
+              "encrypted": false
+            },
+            {
+              "text": "Pronounce this word, please. ",
+              "encrypted": true
+            },
+            {
+              "text": "What",
+              "encrypted": false
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s pronouncing the word “what“",
+              "encrypted": false
+            },
+            {
+              "text": "Pronounce this word, please.  ",
+              "encrypted": true
+            },
+            {
+              "text": "Colour",
+              "encrypted": false
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s pronouncing the word “colour“",
+              "encrypted": false
+            },
+            {
+              "text": "a",
+              "encrypted": false
+            },
+            {
+              "text": "an",
+              "encrypted": false
+            },
+            {
+              "text": "the \u0012êɊ\u0012",
+              "encrypted": false
+            },
+            {
+              "text": "the\u0003/ði:/",
+              "encrypted": false
+            },
+            {
+              "text": "We say a book, but an umbrella. The book, but the umbrella. Before a",
+              "encrypted": false
+            },
+            {
+              "text": "consonant we say “a“ – a book. Before a vowel we say “an“ – an umbrella.",
+              "encrypted": false
+            },
+            {
+              "text": "Before a consonant we say “the“ – the book. Before a vowel we say “the“",
+              "encrypted": false
+            },
+            {
+              "text": "– the umbrella.",
+              "encrypted": false
+            },
+            {
+              "text": "39",
+              "encrypted": false
+            },
+            {
+              "text": "Pronounce these words, please. ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "a book – an umbrella; the",
+              "encrypted": false
+            },
+            {
+              "text": "book – the umbrella",
+              "encrypted": false
+            },
+            {
+              "text": "body",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "This is the body",
+              "encrypted": false
+            },
+            {
+              "text": "Is this her body? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t her body; it’s your body",
+              "encrypted": false
+            },
+            {
+              "text": "part",
+              "encrypted": false
+            },
+            {
+              "text": "foot",
+              "encrypted": false
+            },
+            {
+              "text": "feet",
+              "encrypted": false
+            },
+            {
+              "text": "What part of the body is this?",
+              "encrypted": false
+            },
+            {
+              "text": "This part of the body is the foot",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the plural of “foot”?",
+              "encrypted": false
+            },
+            {
+              "text": "The plural of “foot” is “feet”",
+              "encrypted": false
+            },
+            {
+              "text": "leg",
+              "encrypted": false
+            },
+            {
+              "text": "back",
+              "encrypted": false
+            },
+            {
+              "text": "arm",
+              "encrypted": false
+            },
+            {
+              "text": "wrist",
+              "encrypted": false
+            },
+            {
+              "text": "hand",
+              "encrypted": false
+            },
+            {
+              "text": "ﬁnger",
+              "encrypted": false
+            },
+            {
+              "text": "thumb",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a leg, the back, an arm, a wrist etc.",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 34,
+          "image": "pages/book-01/lesson-07-p034.png",
+          "lineCount": 13,
+          "lines": [
+            {
+              "text": "40",
+              "encrypted": false
+            },
+            {
+              "text": "right",
+              "encrypted": false
+            },
+            {
+              "text": "wrong",
+              "encrypted": false
+            },
+            {
+              "text": "2 + 2 = 7: is that right?",
+              "encrypted": false
+            },
+            {
+              "text": "No, it isn’t right; it’s wrong",
+              "encrypted": false
+            },
+            {
+              "text": "The wall's high: is that wrong? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t wrong; it’s right",
+              "encrypted": false
+            },
+            {
+              "text": "Is it right you're Mr Brown? ?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t right I’m Mr",
+              "encrypted": false
+            },
+            {
+              "text": "Brown; it’s wrong. I’m ...",
+              "encrypted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": 8,
+      "title": "Lesson 8",
+      "pageCount": 4,
+      "pages": [
+        {
+          "pageNum": 35,
+          "image": "pages/book-01/lesson-08-p035.png",
+          "lineCount": 40,
+          "lines": [
+            {
+              "text": "LESSON 8",
+              "encrypted": false
+            },
+            {
+              "text": "41",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 2",
+              "encrypted": false
+            },
+            {
+              "text": "question",
+              "encrypted": false
+            },
+            {
+              "text": "answer",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a question",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s an answer",
+              "encrypted": false
+            },
+            {
+              "text": "Is this an answer? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, it isn’t an answer; it’s a question",
+              "encrypted": false
+            },
+            {
+              "text": "meaning",
+              "encrypted": false
+            },
+            {
+              "text": "What's the meaning of the word \"use\" in ...? ? ",
+              "encrypted": true
+            },
+            {
+              "text": "The meaning of the",
+              "encrypted": false
+            },
+            {
+              "text": "word “use“ in ... is “...“",
+              "encrypted": false
+            },
+            {
+              "text": "What's the meaning of the word \"table\" in ...? ",
+              "encrypted": true
+            },
+            {
+              "text": "The meaning of the",
+              "encrypted": false
+            },
+            {
+              "text": "word “table“ in ... is “...“",
+              "encrypted": false
+            },
+            {
+              "text": "What's the meaning of the word \"for\" in ...? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "The meaning of the",
+              "encrypted": false
+            },
+            {
+              "text": "word “for“ in ... is “...“",
+              "encrypted": false
+            },
+            {
+              "text": "What's the meaning of the word \"chair\" in ...?  ",
+              "encrypted": true
+            },
+            {
+              "text": "The meaning of the",
+              "encrypted": false
+            },
+            {
+              "text": "word “chair“ in ... is “...“",
+              "encrypted": false
+            },
+            {
+              "text": "What's the meaning of the word \"action\" in ...?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "The meaning of",
+              "encrypted": false
+            },
+            {
+              "text": "the word “action“ in ... is “...“",
+              "encrypted": false
+            },
+            {
+              "text": "42",
+              "encrypted": false
+            },
+            {
+              "text": "name",
+              "encrypted": false
+            },
+            {
+              "text": "What’s my name?",
+              "encrypted": false
+            },
+            {
+              "text": "Your name’s ...",
+              "encrypted": false
+            },
+            {
+              "text": "What’s your name?",
+              "encrypted": false
+            },
+            {
+              "text": "My name’s ...",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "What’s his name?",
+              "encrypted": false
+            },
+            {
+              "text": "His name’s Mr Brown",
+              "encrypted": false
+            },
+            {
+              "text": "What’s her name?",
+              "encrypted": false
+            },
+            {
+              "text": "Her name’s Mrs Brown",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 36,
+          "image": "pages/book-01/lesson-08-p036.png",
+          "lineCount": 49,
+          "lines": [
+            {
+              "text": "head",
+              "encrypted": false
+            },
+            {
+              "text": "face",
+              "encrypted": false
+            },
+            {
+              "text": "chin",
+              "encrypted": false
+            },
+            {
+              "text": "mouth",
+              "encrypted": false
+            },
+            {
+              "text": "nose",
+              "encrypted": false
+            },
+            {
+              "text": "eye",
+              "encrypted": false
+            },
+            {
+              "text": "ear",
+              "encrypted": false
+            },
+            {
+              "text": "hair",
+              "encrypted": false
+            },
+            {
+              "text": "tongue",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s the head etc.",
+              "encrypted": false
+            },
+            {
+              "text": "remaining",
+              "encrypted": false
+            },
+            {
+              "text": "43",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re going to the window",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re coming from the window",
+              "encrypted": false
+            },
+            {
+              "text": "Are you going to the window? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, I’m not going to the",
+              "encrypted": false
+            },
+            {
+              "text": "window; I’m remaining on the chair",
+              "encrypted": false
+            },
+            {
+              "text": "Am I remaining on the chair? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, you aren’t remaining on the",
+              "encrypted": false
+            },
+            {
+              "text": "chair; you’re going to the window",
+              "encrypted": false
+            },
+            {
+              "text": "country",
+              "encrypted": false
+            },
+            {
+              "text": "Spain",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the name of your country?",
+              "encrypted": false
+            },
+            {
+              "text": "... is the name",
+              "encrypted": false
+            },
+            {
+              "text": "of my country",
+              "encrypted": false
+            },
+            {
+              "text": "What's the name of the country between England and Spain",
+              "encrypted": true
+            },
+            {
+              "text": "France’s the name of the country",
+              "encrypted": false
+            },
+            {
+              "text": "between England and Spain",
+              "encrypted": false
+            },
+            {
+              "text": "translate",
+              "encrypted": false
+            },
+            {
+              "text": "into",
+              "encrypted": false
+            },
+            {
+              "text": "44",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 2",
+              "encrypted": false
+            },
+            {
+              "text": "\"Verbs are words we use for actions\". ",
+              "encrypted": true
+            },
+            {
+              "text": "What am I doing?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re translating a sentence",
+              "encrypted": false
+            },
+            {
+              "text": "from English into ...",
+              "encrypted": false
+            },
+            {
+              "text": "Translate this sentence, please: \"I am a student\".",
+              "encrypted": true
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s translating a",
+              "encrypted": false
+            },
+            {
+              "text": "sentence from English into ...",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 37,
+          "image": "pages/book-01/lesson-08-p037.png",
+          "lineCount": 42,
+          "lines": [
+            {
+              "text": "Translate this sentence, please: \"The wall's high\".",
+              "encrypted": true
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s translating a",
+              "encrypted": false
+            },
+            {
+              "text": "sentence from English into ...",
+              "encrypted": false
+            },
+            {
+              "text": "Translate this sentence, please: “There are ten chairs in this room“.",
+              "encrypted": false
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s translating a",
+              "encrypted": false
+            },
+            {
+              "text": "sentence from English into ...",
+              "encrypted": false
+            },
+            {
+              "text": "who",
+              "encrypted": false
+            },
+            {
+              "text": "Who am I? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re Mr Smith",
+              "encrypted": false
+            },
+            {
+              "text": "Who are you?",
+              "encrypted": false
+            },
+            {
+              "text": "I’m Mr Rossi",
+              "encrypted": false
+            },
+            {
+              "text": "Who’s he?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s Jack Brown",
+              "encrypted": false
+            },
+            {
+              "text": "45",
+              "encrypted": false
+            },
+            {
+              "text": "Who’s she?",
+              "encrypted": false
+            },
+            {
+              "text": "She’s Anna Brown",
+              "encrypted": false
+            },
+            {
+              "text": "Who are they?",
+              "encrypted": false
+            },
+            {
+              "text": "They’re Mr and Mrs Brown",
+              "encrypted": false
+            },
+            {
+              "text": "thing",
+              "encrypted": false
+            },
+            {
+              "text": "How many things are there on this book? ",
+              "encrypted": true
+            },
+            {
+              "text": "  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "There are three",
+              "encrypted": false
+            },
+            {
+              "text": "things on that book",
+              "encrypted": false
+            },
+            {
+              "text": "What’s the name of this thing?",
+              "encrypted": false
+            },
+            {
+              "text": "The name of that thing is a tie",
+              "encrypted": false
+            },
+            {
+              "text": "What colour’s this thing?",
+              "encrypted": false
+            },
+            {
+              "text": "This thing’s red",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 1",
+              "encrypted": false
+            },
+            {
+              "text": "tall",
+              "encrypted": false
+            },
+            {
+              "text": "short",
+              "encrypted": false
+            },
+            {
+              "text": "Scandinavia",
+              "encrypted": false
+            },
+            {
+              "text": "Is Mr Brown short? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001No, Mr Brown isn’t short; he’s tall",
+              "encrypted": false
+            },
+            {
+              "text": "Is Anna Brown tall? ",
+              "encrypted": true
+            },
+            {
+              "text": "No, Anna Brown isn’t tall; she’s short",
+              "encrypted": false
+            },
+            {
+              "text": "Are the people of Scandinavia short?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "No, the people of Scandinavia",
+              "encrypted": false
+            },
+            {
+              "text": "aren’t short; they’re tall",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 38,
+          "image": "pages/book-01/lesson-08-p038.png",
+          "lineCount": 16,
+          "lines": [
+            {
+              "text": "46",
+              "encrypted": false
+            },
+            {
+              "text": "difference",
+              "encrypted": false
+            },
+            {
+              "text": "whereas",
+              "encrypted": false
+            },
+            {
+              "text": "that",
+              "encrypted": false
+            },
+            {
+              "text": "What's the difference between \"tall\" and \"short\" and \"high\" and \"low\"",
+              "encrypted": true
+            },
+            {
+              "text": "The difference between “tall“ and “short“ and",
+              "encrypted": false
+            },
+            {
+              "text": "“high“ and “low“ is that we use “tall“ and",
+              "encrypted": false
+            },
+            {
+              "text": "“short“ for people, whereas we use",
+              "encrypted": false
+            },
+            {
+              "text": "“high“ and “low“ for things",
+              "encrypted": false
+            },
+            {
+              "text": "47",
+              "encrypted": false
+            },
+            {
+              "text": "Dictation 1",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?/ It’s a pen./ Is this/ a pencil/ or a book?/ Is the/ long table/ black?/ No,",
+              "encrypted": false
+            },
+            {
+              "text": "it isn’t;/ it’s white./ The short box/ is green./ A city is large/ but a village/ is small./",
+              "encrypted": false
+            },
+            {
+              "text": "Is Mr Brown/ a man?/ Yes, he is./ Is Anna Brown/ a boy or a girl?/ She’s a girl./ One,",
+              "encrypted": false
+            },
+            {
+              "text": "two, three,/ four, ﬁve./ Is the clock/ on the table/ or under the chair?/ No,/ it’s on",
+              "encrypted": false
+            },
+            {
+              "text": "the wall./ What colour/ is the ceiling?",
+              "encrypted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": 9,
+      "title": "Lesson 9",
+      "pageCount": 9,
+      "pages": [
+        {
+          "pageNum": 39,
+          "image": "pages/book-01/lesson-09-p039.png",
+          "lineCount": 46,
+          "lines": [
+            {
+              "text": "LESSON 9",
+              "encrypted": false
+            },
+            {
+              "text": "asking",
+              "encrypted": false
+            },
+            {
+              "text": "answering",
+              "encrypted": false
+            },
+            {
+              "text": "48",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a pen",
+              "encrypted": false
+            },
+            {
+              "text": "What am I doing? ",
+              "encrypted": true
+            },
+            {
+              "text": "You’re asking him/her a question",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a hand",
+              "encrypted": false
+            },
+            {
+              "text": "Am I asking him/her a question?  ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, you’re asking him/her a question",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a head",
+              "encrypted": false
+            },
+            {
+              "text": "What’s he/she doing?",
+              "encrypted": false
+            },
+            {
+              "text": "He’s/She’s answering your question",
+              "encrypted": false
+            },
+            {
+              "text": "What’s this?",
+              "encrypted": false
+            },
+            {
+              "text": "It’s a mouth",
+              "encrypted": false
+            },
+            {
+              "text": "Is he/she answering my question?  ? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, he’s/she’s",
+              "encrypted": false
+            },
+            {
+              "text": "answering your question",
+              "encrypted": false
+            },
+            {
+              "text": "Ask him/her a question, please. ",
+              "encrypted": true
+            },
+            {
+              "text": "49",
+              "encrypted": false
+            },
+            {
+              "text": "To have",
+              "encrypted": false
+            },
+            {
+              "text": "I have",
+              "encrypted": false
+            },
+            {
+              "text": "I’ve",
+              "encrypted": false
+            },
+            {
+              "text": "you have",
+              "encrypted": false
+            },
+            {
+              "text": "you’ve",
+              "encrypted": false
+            },
+            {
+              "text": "he has",
+              "encrypted": false
+            },
+            {
+              "text": "he’s",
+              "encrypted": false
+            },
+            {
+              "text": "she has",
+              "encrypted": false
+            },
+            {
+              "text": "she’s",
+              "encrypted": false
+            },
+            {
+              "text": "it has",
+              "encrypted": false
+            },
+            {
+              "text": "it’s",
+              "encrypted": false
+            },
+            {
+              "text": "we have",
+              "encrypted": false
+            },
+            {
+              "text": "we’ve",
+              "encrypted": false
+            },
+            {
+              "text": "you have",
+              "encrypted": false
+            },
+            {
+              "text": "you’ve",
+              "encrypted": false
+            },
+            {
+              "text": "they have",
+              "encrypted": false
+            },
+            {
+              "text": "they’ve",
+              "encrypted": false
+            },
+            {
+              "text": "What's the meaning of the verb \"to have\"?  ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "The meaning of the",
+              "encrypted": false
+            },
+            {
+              "text": "verb “to have“ is ...",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 40,
+          "image": "pages/book-01/lesson-09-p040.png",
+          "lineCount": 40,
+          "lines": [
+            {
+              "text": "What's the contraction of \"I have, you have\" etc.? ",
+              "encrypted": true
+            },
+            {
+              "text": "\u0001I’ve,",
+              "encrypted": false
+            },
+            {
+              "text": "you’ve etc.",
+              "encrypted": false
+            },
+            {
+              "text": "got",
+              "encrypted": false
+            },
+            {
+              "text": "with",
+              "encrypted": false
+            },
+            {
+              "text": "generally",
+              "encrypted": false
+            },
+            {
+              "text": "50",
+              "encrypted": false
+            },
+            {
+              "text": "With the verb “have“, we generally use the word “got“ and we say “I’ve",
+              "encrypted": false
+            },
+            {
+              "text": "got“, “you’ve got“, “he’s got“ etc. We say “I have a pen“ or “I have got a",
+              "encrypted": false
+            },
+            {
+              "text": "pen“.",
+              "encrypted": false
+            },
+            {
+              "text": "Have I got two eyes? ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, you’ve got two eyes",
+              "encrypted": false
+            },
+            {
+              "text": "Have you got two ears? ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, I’ve got two ears",
+              "encrypted": false
+            },
+            {
+              "text": "Has he got two legs? ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, he’s got two legs",
+              "encrypted": false
+            },
+            {
+              "text": "Has she got two hands? ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, she’s got two hands",
+              "encrypted": false
+            },
+            {
+              "text": "Have we got two heads?  ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, we’ve got two heads",
+              "encrypted": false
+            },
+            {
+              "text": "Have they got four arms?  ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, they’ve got four arms",
+              "encrypted": false
+            },
+            {
+              "text": "See Chart 4",
+              "encrypted": false
+            },
+            {
+              "text": "any?",
+              "encrypted": false
+            },
+            {
+              "text": "non-speciʝc",
+              "encrypted": true
+            },
+            {
+              "text": "yes, some",
+              "encrypted": false
+            },
+            {
+              "text": "no, not any",
+              "encrypted": false
+            },
+            {
+              "text": "how many",
+              "encrypted": true
+            },
+            {
+              "text": "speciﬁc",
+              "encrypted": false
+            },
+            {
+              "text": "TFWFO",
+              "encrypted": false
+            },
+            {
+              "text": "thirteen etc.",
+              "encrypted": false
+            },
+            {
+              "text": "none",
+              "encrypted": false
+            },
+            {
+              "text": "speciﬁc",
+              "encrypted": false
+            },
+            {
+              "text": "non-speciﬁc",
+              "encrypted": false
+            },
+            {
+              "text": "negative",
+              "encrypted": false
+            },
+            {
+              "text": "51",
+              "encrypted": false
+            },
+            {
+              "text": "positive",
+              "encrypted": false
+            },
+            {
+              "text": "for example",
+              "encrypted": false
+            },
+            {
+              "text": "important",
+              "encrypted": false
+            },
+            {
+              "text": "when",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 41,
+          "image": "pages/book-01/lesson-09-p041.png",
+          "lineCount": 40,
+          "lines": [
+            {
+              "text": "The meaning of “any“ and “some“ is “...“, but we use “any“ in questions",
+              "encrypted": false
+            },
+            {
+              "text": "and negative sentences, and “some“ in positive sentences. For example,",
+              "encrypted": false
+            },
+            {
+              "text": "we say “Are there any books on the table?” – “Yes, there are some books",
+              "encrypted": false
+            },
+            {
+              "text": "on the table”, and we say “Are there any books on the ﬂoor?” – “No,",
+              "encrypted": false
+            },
+            {
+              "text": "there aren’t any books on the ﬂoor“.",
+              "encrypted": false
+            },
+            {
+              "text": "We use “any“ in a non-speciﬁc question, when the number is not",
+              "encrypted": false
+            },
+            {
+              "text": "important. For example, “Are there any books on the table?“ – “Yes,",
+              "encrypted": false
+            },
+            {
+              "text": "there are some books on the table“, or “No, there aren’t any books on",
+              "encrypted": false
+            },
+            {
+              "text": "the table“. If the number is important, we use “How many“ and there is a",
+              "encrypted": false
+            },
+            {
+              "text": "speciﬁc answer – “one“, “two“, “three“ etc., or “none“.",
+              "encrypted": false
+            },
+            {
+              "text": "What is the meaning of the words \"any\" and \"some\"? ",
+              "encrypted": true
+            },
+            {
+              "text": "The meaning of the words “any“ and “some“ is ...",
+              "encrypted": false
+            },
+            {
+              "text": "What's the difference between \"any\" and \"some\"?  ",
+              "encrypted": true
+            },
+            {
+              "text": "The difference between",
+              "encrypted": false
+            },
+            {
+              "text": "“any“ and “some“ is that we use",
+              "encrypted": false
+            },
+            {
+              "text": "“any“ in questions and negative sentences,",
+              "encrypted": false
+            },
+            {
+              "text": "whereas we use “some“ in positive sentences",
+              "encrypted": false
+            },
+            {
+              "text": "any",
+              "encrypted": false
+            },
+            {
+              "text": "Are there any books on this table?",
+              "encrypted": false
+            },
+            {
+              "text": "Yes, there are some",
+              "encrypted": false
+            },
+            {
+              "text": "books on this table",
+              "encrypted": false
+            },
+            {
+              "text": "Are there any pictures on these walls? ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, there are some",
+              "encrypted": false
+            },
+            {
+              "text": "pictures on these walls",
+              "encrypted": false
+            },
+            {
+              "text": "52",
+              "encrypted": false
+            },
+            {
+              "text": "Have you got any shoes on your feet? ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": " ",
+              "encrypted": true
+            },
+            {
+              "text": "Yes, I’ve got some",
+              "encrypted": false
+            },
+            {
+              "text": "shoes on my feet",
+              "encrypted": false
+            },
+            {
+              "text": "not any",
+              "encrypted": false
+            },
+            {
+              "text": "Are there any books on the ﬂoor?",
+              "encrypted": false
+            },
+            {
+              "text": "No, there aren’t any",
+              "encrypted": false
+            },
+            {
+              "text": "books on the ﬂoor",
+              "encrypted": false
+            },
+            {
+              "text": "Are there any pictures on that chair?",
+              "encrypted": false
+            },
+            {
+              "text": "No, there aren’t any",
+              "encrypted": false
+            },
+            {
+              "text": "pictures on that chair",
+              "encrypted": false
+            },
+            {
+              "text": "Are there any chairs on the table?",
+              "encrypted": false
+            },
+            {
+              "text": "No, there aren’t any",
+              "encrypted": false
+            },
+            {
+              "text": "chairs on the table",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 42,
+          "image": "pages/book-01/lesson-09-p042.png",
+          "lineCount": 29,
+          "lines": [
+            {
+              "text": "none",
+              "encrypted": false
+            },
+            {
+              "text": "class",
+              "encrypted": false
+            },
+            {
+              "text": "classroom",
+              "encrypted": false
+            },
+            {
+              "text": "How many books are there on the table?  ",
+              "encrypted": true
+            },
+            {
+              "text": "There are ...",
+              "encrypted": false
+            },
+            {
+              "text": "books on the table",
+              "encrypted": false
+            },
+            {
+              "text": "How many books are there on the ʞoor? ",
+              "encrypted": true
+            },
+            {
+              "text": "There are none",
+              "encrypted": false
+            },
+            {
+              "text": "How many pictures are there on these walls? ? ",
+              "encrypted": true
+            },
+            {
+              "text": "There are ... pictures on",
+              "encrypted": false
+            },
+            {
+              "text": "these walls",
+              "encrypted": false
+            },
+            {
+              "text": "How many pictures are there on that chair? ",
+              "encrypted": true
+            },
+            {
+              "text": "There are none",
+              "encrypted": false
+            },
+            {
+              "text": "How many students are there in this classroom? ",
+              "encrypted": true
+            },
+            {
+              "text": "There are ... students in",
+              "encrypted": false
+            },
+            {
+              "text": "this classroom",
+              "encrypted": false
+            },
+            {
+              "text": "How many students are there sitting on the ʞoor? ",
+              "encrypted": true
+            },
+            {
+              "text": "There are",
+              "encrypted": false
+            },
+            {
+              "text": "none",
+              "encrypted": false
+            },
+            {
+              "text": "Do Revision Exercise 1",
+              "encrypted": false
+            },
+            {
+              "text": "Revision exercises",
+              "encrypted": false
+            },
+            {
+              "text": "In your book, you sometimes see ‘Do Revision Exercise …’. These exercises are at the",
+              "encrypted": false
+            },
+            {
+              "text": "end of each stage, and you can do them at home. This is a good idea because these",
+              "encrypted": false
+            },
+            {
+              "text": "exercises give you extra practice with the English you are learning at school. With the",
+              "encrypted": false
+            },
+            {
+              "text": "Callan Method, you learn quickly, but if you want to learn more quickly, you should",
+              "encrypted": false
+            },
+            {
+              "text": "study with your book, listen to the audio ﬁles, and do the revision exercises.",
+              "encrypted": false
+            },
+            {
+              "text": "Write long answers to all the questions, like the answers that you say in the lessons.",
+              "encrypted": false
+            },
+            {
+              "text": "Then correct the exercise by looking at the printed answers in your book. Remember,",
+              "encrypted": false
+            },
+            {
+              "text": "the exercises are not for class; you do them outside the lesson for extra practice.",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 43,
+          "image": "pages/book-01/lesson-09-p043.png",
+          "lineCount": 54,
+          "lines": [
+            {
+              "text": "Revision Exercise 1 (Lessons 1 – 5)",
+              "encrypted": false
+            },
+            {
+              "text": "1",
+              "encrypted": false
+            },
+            {
+              "text": "Is London a village?",
+              "encrypted": false
+            },
+            {
+              "text": "2",
+              "encrypted": false
+            },
+            {
+              "text": "Is a city large or small?",
+              "encrypted": false
+            },
+            {
+              "text": "3",
+              "encrypted": false
+            },
+            {
+              "text": "Are you standing on the ﬂoor?",
+              "encrypted": false
+            },
+            {
+              "text": "4",
+              "encrypted": false
+            },
+            {
+              "text": "What's the plural of “book”?",
+              "encrypted": false
+            },
+            {
+              "text": "5",
+              "encrypted": false
+            },
+            {
+              "text": "What's the plural of “man“?",
+              "encrypted": false
+            },
+            {
+              "text": "6",
+              "encrypted": false
+            },
+            {
+              "text": "What's the plural of “woman“?",
+              "encrypted": false
+            },
+            {
+              "text": "7",
+              "encrypted": false
+            },
+            {
+              "text": "What are the ﬁve vowels?",
+              "encrypted": false
+            },
+            {
+              "text": "8",
+              "encrypted": false
+            },
+            {
+              "text": "Is the letter “B“ a vowel?",
+              "encrypted": false
+            },
+            {
+              "text": "9",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter's before “E“?",
+              "encrypted": false
+            },
+            {
+              "text": "10",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter’s after “G“?",
+              "encrypted": false
+            },
+            {
+              "text": "11",
+              "encrypted": false
+            },
+            {
+              "text": "Which letter's between “H“ and “J“?",
+              "encrypted": false
+            },
+            {
+              "text": "12",
+              "encrypted": false
+            },
+            {
+              "text": "Are you the teacher?",
+              "encrypted": false
+            },
+            {
+              "text": "13",
+              "encrypted": false
+            },
+            {
+              "text": "How much is 13 plus 5?",
+              "encrypted": false
+            },
+            {
+              "text": "14",
+              "encrypted": false
+            },
+            {
+              "text": "Is there a light on the ceiling?",
+              "encrypted": false
+            },
+            {
+              "text": "15",
+              "encrypted": false
+            },
+            {
+              "text": "Is there a clock on the table?",
+              "encrypted": false
+            },
+            {
+              "text": "16",
+              "encrypted": false
+            },
+            {
+              "text": "Are there a hundred pictures in this room?",
+              "encrypted": false
+            },
+            {
+              "text": "17",
+              "encrypted": false
+            },
+            {
+              "text": "Is the wall low?",
+              "encrypted": false
+            },
+            {
+              "text": "18",
+              "encrypted": false
+            },
+            {
+              "text": "What's the capital of England?",
+              "encrypted": false
+            },
+            {
+              "text": "19",
+              "encrypted": false
+            },
+            {
+              "text": "What's the capital of Greece?",
+              "encrypted": false
+            },
+            {
+              "text": "20",
+              "encrypted": false
+            },
+            {
+              "text": "How many clocks are there in this room?",
+              "encrypted": false
+            },
+            {
+              "text": "\"OTXFST",
+              "encrypted": false
+            },
+            {
+              "text": "1",
+              "encrypted": false
+            },
+            {
+              "text": "No, London isn't a village; it's a city.",
+              "encrypted": false
+            },
+            {
+              "text": "2",
+              "encrypted": false
+            },
+            {
+              "text": "A city's large.",
+              "encrypted": false
+            },
+            {
+              "text": "3",
+              "encrypted": false
+            },
+            {
+              "text": "No, I'm not standing on the ﬂoor; I'm sitting on the chair.",
+              "encrypted": false
+            },
+            {
+              "text": "4",
+              "encrypted": false
+            },
+            {
+              "text": "The plural of “book” is “books”.",
+              "encrypted": false
+            },
+            {
+              "text": "5",
+              "encrypted": false
+            },
+            {
+              "text": "The plural of “man” is “men”.",
+              "encrypted": false
+            },
+            {
+              "text": "6",
+              "encrypted": false
+            },
+            {
+              "text": "The plural of “woman“ is “women“.",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 44,
+          "image": "pages/book-01/lesson-09-p044.png",
+          "lineCount": 29,
+          "lines": [
+            {
+              "text": "7",
+              "encrypted": false
+            },
+            {
+              "text": "The ﬁve vowels are “A E I O U“.",
+              "encrypted": false
+            },
+            {
+              "text": "8",
+              "encrypted": false
+            },
+            {
+              "text": "No, the letter “B“ isn't a vowel; it’s a consonant.",
+              "encrypted": false
+            },
+            {
+              "text": "9",
+              "encrypted": false
+            },
+            {
+              "text": "D's before E.",
+              "encrypted": false
+            },
+            {
+              "text": "10",
+              "encrypted": false
+            },
+            {
+              "text": "H's after G.",
+              "encrypted": false
+            },
+            {
+              "text": "11",
+              "encrypted": false
+            },
+            {
+              "text": "I's between H and J.",
+              "encrypted": false
+            },
+            {
+              "text": "12",
+              "encrypted": false
+            },
+            {
+              "text": "No, I'm not the teacher; I'm a student.",
+              "encrypted": false
+            },
+            {
+              "text": "13",
+              "encrypted": false
+            },
+            {
+              "text": "13 plus 5 equals 18.",
+              "encrypted": false
+            },
+            {
+              "text": "14",
+              "encrypted": false
+            },
+            {
+              "text": "Yes, there’s a light on the ceiling.",
+              "encrypted": false
+            },
+            {
+              "text": "15",
+              "encrypted": false
+            },
+            {
+              "text": "No, there isn't a clock on the table.",
+              "encrypted": false
+            },
+            {
+              "text": "16",
+              "encrypted": false
+            },
+            {
+              "text": "No, there aren't a hundred pictures in this room; there are ... pictures in this",
+              "encrypted": false
+            },
+            {
+              "text": "room.",
+              "encrypted": false
+            },
+            {
+              "text": "17",
+              "encrypted": false
+            },
+            {
+              "text": "No, the wall isn't low; it's high.",
+              "encrypted": false
+            },
+            {
+              "text": "18",
+              "encrypted": false
+            },
+            {
+              "text": "London's the capital of England.",
+              "encrypted": false
+            },
+            {
+              "text": "19",
+              "encrypted": false
+            },
+            {
+              "text": "Athens's the capital of Greece.",
+              "encrypted": false
+            },
+            {
+              "text": "20",
+              "encrypted": false
+            },
+            {
+              "text": "There’s one clock in this room.",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 45,
+          "image": "pages/book-01/lesson-09-p045.png",
+          "lineCount": 1,
+          "lines": [
+            {
+              "text": "Demonstration Charts",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 46,
+          "image": "pages/book-01/lesson-09-p046.png",
+          "lineCount": 1,
+          "lines": [
+            {
+              "text": "Chart 1",
+              "encrypted": false
+            }
+          ]
+        },
+        {
+          "pageNum": 47,
+          "image": "pages/book-01/lesson-09-p047.png",
+          "lineCount": 1,
+          "lines": [
+            {
+              "text": "Chart 1",
+              "encrypted": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "book": 1,
+  "annotations": [
+    {
+      "lessonId": 1,
+      "pageNum": 12,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ],
+      "summaryZh": "本页通过问答句 Is this a …? 和 Is the … long? 练习物品和形容词对比。",
+      "chartRef": 1,
+      "blocks": {
+        "patterns": [
+          {
+            "en": "Is this a …?",
+            "zh": "这是一……吗？",
+            "why": "通过一般疑问句检验物品的身份，帮助学生掌握疑问句结构。",
+            "when": "在确定某物体的名称时使用。",
+            "how": "老师问 Is this a pen? 学生答 Yes, it’s a pen；若不是，再否定并纠正。",
+            "drills": [
+              "Is this a book?",
+              "No, it isn’t a book; it’s a pencil."
+            ],
+            "realLife": "在商店问 Is this the item I want?"
+          },
+          {
+            "en": "Is the … long?",
+            "zh": "……长吗？",
+            "why": "用于比较物体的特征，强化形容词的使用。",
+            "when": "比较物品的长短时使用。",
+            "how": "老师问 Is the pen long? 学生答 No, the pen isn’t long; it’s short。",
+            "drills": [
+              "Is the chair long?",
+              "No, the chair isn’t long; it’s short."
+            ],
+            "realLife": "询问长手柄的工具 Is this long enough?"
+          }
+        ],
+        "vocab": [
+          {
+            "word": "pen",
+            "ipa": "/pɛn/",
+            "pos": "n.",
+            "zh": "钢笔",
+            "inDrill": "Is this a pen? — Yes, it’s a pen.",
+            "audio": "audio/book-01/pen.mp3"
+          },
+          {
+            "word": "pencil",
+            "ipa": "/ˈpɛnsl/",
+            "pos": "n.",
+            "zh": "铅笔",
+            "inDrill": "Is this a pencil? — No, it isn’t a pencil; it’s a book.",
+            "audio": "audio/book-01/pencil.mp3"
+          },
+          {
+            "word": "book",
+            "ipa": "/bʊk/",
+            "pos": "n.",
+            "zh": "书",
+            "inDrill": "Is this a book? — No, it isn’t a book; it’s a pencil.",
+            "audio": "audio/book-01/book.mp3"
+          }
+        ],
+        "grammar": [
+          {
+            "title": "一般疑问句",
+            "body": "一般疑问句的格式为助动词 + 主语 + 谓语。"
+          },
+          {
+            "title": "否定句",
+            "body": "否定句通常用 isn’t 或 aren’t 表达，表述否定事实。"
+          }
+        ],
+        "usage": [
+          {
+            "title": "离开教材后",
+            "body": "在真实场景中询问物品的属性或存在，比如在餐厅问 Is this dish spicy?"
+          }
+        ]
+      },
+      "generatedAt": "2026-06-08",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "lessonId": 1,
+      "pageNum": 13,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ],
+      "summaryZh": "本页通过问答句练习形容词和名词的对比，强调否定后的正确回答。",
+      "chartRef": 1,
+      "blocks": {
+        "patterns": [
+          {
+            "en": "Is the … long?",
+            "zh": "……长吗？",
+            "why": "教材采用一般疑问句加否定的方式，帮助学习者巩固形容词的对比性。",
+            "when": "在比较两个性质和纠正对方误解时使用。",
+            "how": "老师提问 Is the pen long? 学生回应 No, the pen isn't long; it's short，先是否定再给出正确答案。",
+            "drills": [
+              "Is the table small?",
+              "No, the table isn't small; it's large."
+            ],
+            "realLife": "在购物时问 Is this too large? 拒绝错误理解后给出准确的尺寸。"
+          }
+        ],
+        "vocab": [
+          {
+            "word": "city",
+            "ipa": "/ˈsɪti/",
+            "pos": "n.",
+            "zh": "城市",
+            "inDrill": "Is London a city? — No, London isn't a village; it's a city.",
+            "audio": "audio/book-01/city.mp3"
+          }
+        ],
+        "grammar": [
+          {
+            "title": "一般疑问句",
+            "body": "用来获取信息，默认答案为 Yes 或 No。"
+          },
+          {
+            "title": "否定句结构",
+            "body": "通过 Is … not … 形式纠正误解，强调事实。"
+          }
+        ],
+        "usage": [
+          {
+            "title": "离开教材后",
+            "body": "在日常交流中，可以说：Is this a city or a town?"
+          }
+        ]
+      },
+      "generatedAt": "2026-06-08",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "lessonId": 1,
+      "pageNum": 14,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ],
+      "summaryZh": "本页通过问答句练习方位词和人称，提升基础交流能力。",
+      "chartRef": 1,
+      "blocks": {
+        "patterns": [
+          {
+            "en": "Is the pen in the book?",
+            "zh": "笔在书里吗？",
+            "why": "教材用一般疑问句强化对方理解，并通过否定纠正错误看法。",
+            "when": "询问物品的位置时使用。",
+            "how": "老师问 Is the pen in the book? 学生答 No, the pen isn't in the book; it's under the book。",
+            "drills": [
+              "Is the pen on the table?",
+              "No, the pen isn't on the table; it's under the table."
+            ],
+            "realLife": "在问路时说 Is this the right way?"
+          },
+          {
+            "en": "Is this Anna Brown?",
+            "zh": "这是安娜·布朗吗？",
+            "why": "通过否定和更正帮助学生辨别姓名和身份。",
+            "when": "介绍他人时使用。",
+            "how": "老师问 Is this Anna Brown? 学生答 No, it isn’t Anna Brown; it’s Mr Brown。",
+            "drills": [
+              "Is this Mr Brown?",
+              "No, it isn’t Mr Brown; it’s Mrs Brown."
+            ],
+            "realLife": "在社交场合问 Is this your friend?"
+          },
+          {
+            "en": "What colour's this pencil?",
+            "zh": "这支铅笔是什么颜色的？",
+            "why": "通过颜色提问加深对颜色词汇的记忆。",
+            "when": "询问物品颜色时使用。",
+            "how": "老师问 What colour's this pencil? 学生答 This pencil's black.",
+            "drills": [
+              "What colour's this book?",
+              "This book's red."
+            ],
+            "realLife": "在购物时问 What colour do you prefer?"
+          },
+          {
+            "en": "Where's the pen?",
+            "zh": "笔在哪里？",
+            "why": "常用问句，帮助学生询问位置。",
+            "when": "寻找物品时使用。",
+            "how": "老师问 Where's the pen? 学生答 The pen's on the book。",
+            "drills": [
+              "Where's the book?",
+              "The book's on the table."
+            ],
+            "realLife": "问朋友 Where's my phone?"
+          }
+        ],
+        "vocab": [
+          {
+            "word": "pen",
+            "ipa": "/pen/",
+            "pos": "n.",
+            "zh": "笔",
+            "inDrill": "Is the pen in the book? — No, the pen isn't in the book; it's under the book.",
+            "audio": "audio/book-01/pen.mp3"
+          },
+          {
+            "word": "book",
+            "ipa": "/bʊk/",
+            "pos": "n.",
+            "zh": "书",
+            "inDrill": "Where's the book? — The book's on the table.",
+            "audio": "audio/book-01/book.mp3"
+          },
+          {
+            "word": "pencil",
+            "ipa": "/ˈpɛnsəl/",
+            "pos": "n.",
+            "zh": "铅笔",
+            "inDrill": "What colour's this pencil? — This pencil's black.",
+            "audio": "audio/book-01/pencil.mp3"
+          }
+        ],
+        "grammar": [
+          {
+            "title": "一般疑问句",
+            "body": "一般疑问句用于询问信息及确认答复。"
+          }
+        ],
+        "usage": [
+          {
+            "title": "真实生活中的开口",
+            "body": "在市场上询问货物的具体位置或颜色。"
+          }
+        ]
+      },
+      "generatedAt": "2026-06-08",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "lessonId": 2,
+      "pageNum": 15,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 2,
+      "pageNum": 16,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 2,
+      "pageNum": 17,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 3,
+      "pageNum": 18,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 3,
+      "pageNum": 19,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 3,
+      "pageNum": 20,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 3,
+      "pageNum": 21,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 4,
+      "pageNum": 22,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 4,
+      "pageNum": 23,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 4,
+      "pageNum": 24,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 5,
+      "pageNum": 25,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 5,
+      "pageNum": 26,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 5,
+      "pageNum": 27,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 6,
+      "pageNum": 28,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 6,
+      "pageNum": 29,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 6,
+      "pageNum": 30,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 7,
+      "pageNum": 31,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 7,
+      "pageNum": 32,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 7,
+      "pageNum": 33,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 7,
+      "pageNum": 34,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 8,
+      "pageNum": 35,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 8,
+      "pageNum": 36,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 8,
+      "pageNum": 37,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 8,
+      "pageNum": 38,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 9,
+      "pageNum": 39,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 9,
+      "pageNum": 40,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 9,
+      "pageNum": 41,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 9,
+      "pageNum": 42,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 9,
+      "pageNum": 43,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 9,
+      "pageNum": 44,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 9,
+      "pageNum": 45,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 9,
+      "pageNum": 46,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    },
+    {
+      "lessonId": 9,
+      "pageNum": 47,
+      "notes": [],
+      "cefr": "A1",
+      "hints": [
+        "灰色区域为教材原页图像，未经改写。",
+        "此处可追加 AI 批注、词项提示、复习建议等。"
+      ]
+    }
+  ]
+}

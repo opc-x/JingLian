@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""从 Callan Method PDF 提取 Lesson / 词汇 / 问答对（Book 1 逻辑已验证）。"""
+"""从 Callan Method PDF 提取 Lesson / 词汇 / 问答对（支持 Book 1–12 自动探测）。"""
 
 from __future__ import annotations
 
@@ -52,7 +52,8 @@ def is_question(line: str) -> bool:
         return True
     prefixes = [
         "Am I", "Are you", "Is ", "Where's", "Where is", "Which", "What",
-        "How many", "What's", "Is", "Where", "What",
+        "How many", "What's", "Is", "Where", "What", "Do ", "Does ", "Did ",
+        "Have ", "Has ", "Can ", "Will ", "Would ",
     ]
     return any(line.startswith(p) for p in prefixes)
 
@@ -74,16 +75,14 @@ def can_be_continued(text: str) -> bool:
     words = re.findall(r"[a-zA-Z']+", text)
     if not words:
         return False
-    last_word = words[-1]
     incomplete = {
         "the", "a", "an", "of", "in", "under", "behind", "front", "on", "at", "to", "from",
         "isn't", "aren't", "is", "are", "am", "was", "were", "will", "would", "should",
         "could", "have", "has", "had", "do", "does", "did", "with", "about", "by", "for",
         "first", "second", "third", "fourth", "fifth", "last",
         "you're", "he's", "she's", "it's", "we're", "they're", "i'm",
-        "you're", "he's", "she's", "it's", "we're", "they're", "i'm",
     }
-    return last_word in incomplete
+    return words[-1] in incomplete
 
 
 def format_vocab_word(w: str) -> str:
@@ -108,13 +107,11 @@ def decrypt_qa_part(part: str) -> str:
     return "".join(dec_part)
 
 
-def parse_pdf(pdf_path: Path, output_path: Path) -> int:
-    doc = fitz.open(pdf_path)
-
+def build_vocab_map(doc: fitz.Document) -> dict[str, str]:
+    """全书扫描加密词汇表。"""
     vocab_map: dict[str, str] = {}
-    for page_num in range(59, 64):
-        text = doc[page_num].get_text("text")
-        for line in text.split("\n"):
+    for page_num in range(len(doc)):
+        for line in doc[page_num].get_text("text").split("\n"):
             line_str = line.strip()
             if not line_str or len(line_str) < 2:
                 continue
@@ -136,128 +133,172 @@ def parse_pdf(pdf_path: Path, output_path: Path) -> int:
                 c for c in eng_cleaned if c.isalnum() or c in " ,()'·.-/"
             ).strip()
             eng_final = re.sub(r" +", " ", eng_final)
+            if not eng_final or len(eng_final) > 50:
+                continue
             zh_dec = decrypt_vocab_zh(line_str)
             zh_final = "".join(
                 c for c in zh_dec if 0x4E00 <= ord(c) <= 0x9FFF
             ).strip()
             if eng_final and zh_final:
                 vocab_map[eng_final.upper()] = zh_final
+    return vocab_map
 
-    lessons = []
-    current_lesson = None
 
-    for page_num in range(12, 43):
+def detect_lesson_sequence(doc: fitz.Document) -> tuple[list[int], int, int]:
+    """探测主课次序列与页码范围。"""
+    occurrences: list[tuple[int, int]] = []
+    scan_end = min(len(doc), 110)
+
+    for page_num in range(10, scan_end):
         blocks = doc[page_num].get_text("blocks")
         blocks = sorted(blocks, key=lambda b: (round(b[1] / 10), b[0]))
-
         for b in blocks:
-            text = b[4].strip()
-            if not text:
-                continue
-            lines = [l.strip() for l in text.split("\n") if l.strip()]
+            lines = [l.strip() for l in b[4].strip().split("\n") if l.strip()]
             if not lines:
                 continue
+            m = re.match(r"^LESSON\s+(\d+)\s*$", lines[0], re.IGNORECASE)
+            if m:
+                occurrences.append((page_num, int(m.group(1))))
+                break
 
-            header_match = re.search(r"LESSON\s+(\d+)", lines[0].upper())
-            if header_match:
-                lesson_id = int(header_match.group(1))
-                if 1 <= lesson_id <= 9:
-                    current_lesson = {
-                        "lessonId": lesson_id,
-                        "title": f"Lesson {lesson_id}",
-                        "vocabulary": [],
-                        "drills": [],
-                    }
-                    lessons.append(current_lesson)
+    if not occurrences:
+        return [], 12, 40
+
+    best_seq: list[int] = []
+    best_start_page = 12
+    best_end_page = 40
+
+    for i, (start_page, start_id) in enumerate(occurrences):
+        seq = [start_id]
+        pages = [start_page]
+        prev = start_id
+        for j in range(i + 1, len(occurrences)):
+            p2, lid = occurrences[j]
+            if lid > prev and lid - prev <= 5:
+                seq.append(lid)
+                pages.append(p2)
+                prev = lid
+        if len(seq) > len(best_seq):
+            best_seq = seq
+            best_start_page = pages[0]
+            best_end_page = min(scan_end - 1, pages[-1] + 8)
+
+    return best_seq, best_start_page, best_end_page
+
+
+def _page_lines(doc: fitz.Document, page_num: int) -> list[str]:
+    blocks = doc[page_num].get_text("blocks")
+    blocks = sorted(blocks, key=lambda b: (round(b[1] / 10), b[0]))
+    lines: list[str] = []
+    for b in blocks:
+        for line in b[4].split("\n"):
+            s = line.strip()
+            if s:
+                lines.append(s)
+    return lines
+
+
+def _lesson_page_map(
+    doc: fitz.Document, valid_set: set[int], page_start: int, page_end: int
+) -> dict[int, list[str]]:
+    """按课收集页面文本行。"""
+    lesson_lines: dict[int, list[str]] = {}
+    current_id: int | None = None
+
+    for page_num in range(page_start, page_end + 1):
+        for line in _page_lines(doc, page_num):
+            m = re.match(r"^LESSON\s+(\d+)\s*$", line, re.I)
+            if m:
+                lid = int(m.group(1))
+                if lid in valid_set:
+                    current_id = lid
+                    lesson_lines.setdefault(lid, [])
                 continue
+            if current_id is not None:
+                if line.upper().startswith("REVISION EXERCISE"):
+                    continue
+                lesson_lines[current_id].append(line)
+    return lesson_lines
 
-            if not current_lesson:
-                continue
 
-            if len(lines) == 1 and lines[0].isdigit():
-                continue
-            upper = text.upper()
-            if "SEE CHART" in upper or "REVISION EXERCISE" in upper:
-                continue
+def extract_charts(doc: fitz.Document, book: int) -> dict[int, str]:
+    """导出 Chart 页为 PNG，返回 chartNo → 相对路径。"""
+    from block_parser import CHART_RE  # noqa: F401
 
-            if is_question(lines[0]):
-                q_parts, a_parts = [], []
-                in_q = True
-                for line in lines:
-                    if in_q:
-                        if is_question(line):
-                            q_parts.append(line)
-                        else:
-                            in_q = False
-                            a_parts.append(line)
-                    else:
-                        a_parts.append(line)
+    chart_dir = ROOT / "sources" / "callan" / "charts"
+    chart_dir.mkdir(parents=True, exist_ok=True)
+    manifest: dict[int, str] = {}
+    current_chart: int | None = None
 
-                decrypted_q = [decrypt_qa_part(p) for p in q_parts]
-                q_text = (
-                    ")".join(decrypted_q)
-                    if any(is_encrypted_line(p) for p in q_parts)
-                    else " ".join(decrypted_q)
-                )
-                q_text = clean_text(q_text).rstrip(") ?").strip() + "?"
+    for page_num in range(len(doc)):
+        lines = _page_lines(doc, page_num)
+        if not lines:
+            continue
+        head = lines[0].strip()
+        m = re.match(r"^Chart\s+(\d+)\s*$", head, re.I)
+        if m:
+            current_chart = int(m.group(1))
+        if current_chart is None:
+            continue
+        # 跳过 Index / 词汇索引页
+        if head.lower() in {"index", "chart 1"} and page_num > 50:
+            pass
+        rel = f"charts/book-{book:02d}-chart-{current_chart:02d}-p{page_num:03d}.png"
+        out = chart_dir / rel.replace("charts/", "")
+        if not out.exists():
+            pix = doc[page_num].get_pixmap(matrix=fitz.Matrix(2, 2))
+            out.parent.mkdir(parents=True, exist_ok=True)
+            pix.save(str(out))
+        if current_chart not in manifest:
+            manifest[current_chart] = f"charts/book-{book:02d}-chart-{current_chart:02d}-p{page_num:03d}.png"
 
-                decrypted_a = [decrypt_qa_part(p) for p in a_parts]
-                ans_text = clean_text(" ".join(decrypted_a))
-                if q_text and ans_text:
-                    current_lesson["drills"].append(
-                        {"question": q_text, "answer": ans_text}
-                    )
-            else:
-                cleaned_block_text = clean_text(text)
-                if current_lesson["drills"] and can_be_continued(
-                    current_lesson["drills"][-1]["answer"]
-                ):
-                    prev = current_lesson["drills"][-1]["answer"]
-                    current_lesson["drills"][-1]["answer"] = clean_text(
-                        prev + " " + cleaned_block_text
-                    )
-                else:
-                    for line in lines:
-                        word = clean_text(line)
-                        word_clean = re.sub(r"[^a-zA-Z'-]", " ", word).strip()
-                        word_clean = re.sub(r"\s+", " ", word_clean)
-                        if (
-                            not word_clean
-                            or len(word_clean) < 2
-                            or word_clean.lower()
-                            in {"see chart", "revision exercise", "contraction", "plural", "etc."}
-                        ):
-                            continue
-                        word_upper = word_clean.upper()
-                        zh_trans = vocab_map.get(word_upper, "")
-                        if not zh_trans and word_upper.endswith("S"):
-                            zh_trans = vocab_map.get(word_upper[:-1], "")
-                        current_lesson["vocabulary"].append(
-                            {"word": format_vocab_word(word_clean), "meaningZh": zh_trans}
-                        )
+    meta_path = chart_dir / f"book-{book:02d}-charts.json"
+    meta_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    return manifest
 
-    for lesson in lessons:
-        seen_vocab: set[str] = set()
-        unique_vocab = []
-        for v in lesson["vocabulary"]:
-            w = v["word"].upper()
-            if w not in seen_vocab:
-                seen_vocab.add(w)
-                unique_vocab.append(v)
-        lesson["vocabulary"] = unique_vocab
 
-        seen_drills: set[tuple[str, str]] = set()
-        unique_drills = []
-        for d in lesson["drills"]:
-            k = (d["question"].upper(), d["answer"].upper())
-            if k not in seen_drills:
-                seen_drills.add(k)
-                unique_drills.append(d)
-        lesson["drills"] = unique_drills
+def parse_pdf(pdf_path: Path, output_path: Path) -> int:
+    from block_parser import finalize_block, parse_page_blocks
+
+    doc = fitz.open(pdf_path)
+    book = int(re.search(r"book-(\d+)", pdf_path.name).group(1))
+    vocab_map = build_vocab_map(doc)
+    valid_ids, page_start, page_end = detect_lesson_sequence(doc)
+    valid_set = set(valid_ids)
+    lesson_lines = _lesson_page_map(doc, valid_set, page_start, page_end)
+    chart_manifest = extract_charts(doc, book)
+
+    lessons: list[dict] = []
+    for lesson_id in sorted(lesson_lines.keys()):
+        lines = lesson_lines[lesson_id]
+        raw_blocks = parse_page_blocks(
+            lines, decrypt_qa_part, is_question, clean_text
+        )
+        blocks = [
+            finalize_block(rb, idx, vocab_map)
+            for idx, rb in enumerate(raw_blocks, start=1)
+        ]
+        # 扁平汇总（兼容统计）
+        all_vocab = [v for b in blocks for v in b["vocabulary"]]
+        all_drills = [d for b in blocks for d in b["drills"]]
+
+        lessons.append({
+            "lessonId": lesson_id,
+            "title": f"Lesson {lesson_id}",
+            "blocks": blocks,
+            "blockCount": len(blocks),
+            "vocabulary": all_vocab,
+            "drills": all_drills,
+        })
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "book": book,
+        "chartManifest": chart_manifest,
+        "lessons": lessons,
+    }
     with output_path.open("w", encoding="utf-8") as f:
-        json.dump(lessons, f, ensure_ascii=False, indent=2)
+        json.dump(payload, f, ensure_ascii=False, indent=2)
 
     doc.close()
     return len(lessons)
@@ -265,19 +306,22 @@ def parse_pdf(pdf_path: Path, output_path: Path) -> int:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Extract Callan Method PDF to JSON")
-    parser.add_argument("--book", type=int, default=1, help="Book number 1-12")
+    parser.add_argument("--book", type=int, help="Book number 1-12")
+    parser.add_argument("--all", action="store_true", help="Extract all 12 books")
     args = parser.parse_args()
 
-    if not 1 <= args.book <= 12:
-        raise SystemExit("book must be 1-12")
+    books = range(1, 13) if args.all else [args.book or 1]
 
-    pdf_path = RAW_DIR / f"book-{args.book:02d}.pdf"
-    if not pdf_path.exists():
-        raise SystemExit(f"PDF not found: {pdf_path}")
-
-    out_path = OUT_DIR / f"book-{args.book:02d}.json"
-    count = parse_pdf(pdf_path, out_path)
-    print(f"Book {args.book}: extracted {count} lessons → {out_path}")
+    for book in books:
+        if not 1 <= book <= 12:
+            raise SystemExit("book must be 1-12")
+        pdf_path = RAW_DIR / f"book-{book:02d}.pdf"
+        if not pdf_path.exists():
+            print(f"Book {book}: SKIP (no PDF)")
+            continue
+        out_path = OUT_DIR / f"book-{book:02d}.json"
+        count = parse_pdf(pdf_path, out_path)
+        print(f"Book {book}: extracted {count} lessons → {out_path}")
 
 
 if __name__ == "__main__":

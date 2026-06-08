@@ -1,0 +1,136 @@
+{
+  "mode": "faithful",
+  "categories": [
+    {
+      "id": "callan-method",
+      "title": "Callan Method",
+      "subtitle": "英语口语速成全系列",
+      "cefr": "A1 → B2",
+      "bookCount": 12,
+      "lessonCount": 189,
+      "pageCount": 965,
+      "books": [
+        {
+          "book": 1,
+          "title": "Book 1",
+          "file": "faithful/book-01.json",
+          "annotationFile": "annotations/book-01.json",
+          "lessonCount": 9,
+          "pageCount": 36,
+          "coverImage": "pages/book-01/lesson-01-p012.png",
+          "cefr": "A1"
+        },
+        {
+          "book": 2,
+          "title": "Book 2",
+          "file": "faithful/book-02.json",
+          "annotationFile": "annotations/book-02.json",
+          "lessonCount": 15,
+          "pageCount": 64,
+          "coverImage": "pages/book-02/lesson-10-p012.png",
+          "cefr": "A1"
+        },
+        {
+          "book": 3,
+          "title": "Book 3",
+          "file": "faithful/book-03.json",
+          "annotationFile": "annotations/book-03.json",
+          "lessonCount": 16,
+          "pageCount": 67,
+          "coverImage": "pages/book-03/lesson-25-p012.png",
+          "cefr": "A2"
+        },
+        {
+          "book": 4,
+          "title": "Book 4",
+          "file": "faithful/book-04.json",
+          "annotationFile": "annotations/book-04.json",
+          "lessonCount": 20,
+          "pageCount": 88,
+          "coverImage": "pages/book-04/lesson-41-p012.png",
+          "cefr": "A2"
+        },
+        {
+          "book": 5,
+          "title": "Book 5",
+          "file": "faithful/book-05.json",
+          "annotationFile": "annotations/book-05.json",
+          "lessonCount": 17,
+          "pageCount": 81,
+          "coverImage": "pages/book-05/lesson-61-p012.png",
+          "cefr": "A2"
+        },
+        {
+          "book": 6,
+          "title": "Book 6",
+          "file": "faithful/book-06.json",
+          "annotationFile": "annotations/book-06.json",
+          "lessonCount": 17,
+          "pageCount": 74,
+          "coverImage": "pages/book-06/lesson-78-p012.png",
+          "cefr": "A2"
+        },
+        {
+          "book": 7,
+          "title": "Book 7",
+          "file": "faithful/book-07.json",
+          "annotationFile": "annotations/book-07.json",
+          "lessonCount": 17,
+          "pageCount": 83,
+          "coverImage": "pages/book-07/lesson-95-p012.png",
+          "cefr": "B1"
+        },
+        {
+          "book": 8,
+          "title": "Book 8",
+          "file": "faithful/book-08.json",
+          "annotationFile": "annotations/book-08.json",
+          "lessonCount": 15,
+          "pageCount": 82,
+          "coverImage": "pages/book-08/lesson-112-p012.png",
+          "cefr": "B1"
+        },
+        {
+          "book": 9,
+          "title": "Book 9",
+          "file": "faithful/book-09.json",
+          "annotationFile": "annotations/book-09.json",
+          "lessonCount": 17,
+          "pageCount": 98,
+          "coverImage": "pages/book-09/lesson-127-p012.png",
+          "cefr": "B1"
+        },
+        {
+          "book": 10,
+          "title": "Book 10",
+          "file": "faithful/book-10.json",
+          "annotationFile": "annotations/book-10.json",
+          "lessonCount": 18,
+          "pageCount": 98,
+          "coverImage": "pages/book-10/lesson-146-p012.png",
+          "cefr": "B1"
+        },
+        {
+          "book": 11,
+          "title": "Book 11",
+          "file": "faithful/book-11.json",
+          "annotationFile": "annotations/book-11.json",
+          "lessonCount": 14,
+          "pageCount": 97,
+          "coverImage": "pages/book-11/lesson-164-p013.png",
+          "cefr": "B2"
+        },
+        {
+          "book": 12,
+          "title": "Book 12",
+          "file": "faithful/book-12.json",
+          "annotationFile": "annotations/book-12.json",
+          "lessonCount": 14,
+          "pageCount": 97,
+          "coverImage": "pages/book-12/lesson-178-p013.png",
+          "cefr": "B2"
+        }
+      ]
+    }
+  ]
+}
