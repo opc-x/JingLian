@@ -1,0 +1,20 @@
+{
+  "series": "Callan Method",
+  "publisher": "Callan Publishing Limited",
+  "books": [
+    { "book": 1, "file": "raw/book-01.pdf", "sizeMb": 3.2 },
+    { "book": 2, "file": "raw/book-02.pdf", "sizeMb": 3.3 },
+    { "book": 3, "file": "raw/book-03.pdf", "sizeMb": 3.6 },
+    { "book": 4, "file": "raw/book-04.pdf", "sizeMb": 4.0 },
+    { "book": 5, "file": "raw/book-05.pdf", "sizeMb": 4.2 },
+    { "book": 6, "file": "raw/book-06.pdf", "sizeMb": 4.6 },
+    { "book": 7, "file": "raw/book-07.pdf", "sizeMb": 3.7 },
+    { "book": 8, "file": "raw/book-08.pdf", "sizeMb": 4.5 },
+    { "book": 9, "file": "raw/book-09.pdf", "sizeMb": 3.6 },
+    { "book": 10, "file": "raw/book-10.pdf", "sizeMb": 3.5 },
+    { "book": 11, "file": "raw/book-11.pdf", "sizeMb": 1.0 },
+    { "book": 12, "file": "raw/book-12.pdf", "sizeMb": 1.0 }
+  ],
+  "source": "~/Downloads/Callan Method {1-12}.pdf",
+  "importedAt": "2026-06-08"
+}
